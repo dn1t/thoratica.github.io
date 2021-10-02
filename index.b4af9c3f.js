@@ -22751,7 +22751,7 @@ const App = ()=>{
                 },
                 __self: undefined,
                 children: /*#__PURE__*/ _jsxRuntime.jsxs("nav", {
-                    className: "max-w-7xl h-20 flex items-center mx-auto px-4 sticky top-0",
+                    className: "max-w-7xl h-20 flex items-center mx-auto px-4 md:px-12 sticky top-0",
                     __source: {
                         fileName: "src/App.tsx",
                         lineNumber: 9
@@ -22805,7 +22805,7 @@ const App = ()=>{
                 __self: undefined,
                 children: [
                     /*#__PURE__*/ _jsxRuntime.jsxs("section", {
-                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
                             lineNumber: 19
@@ -22971,7 +22971,7 @@ const App = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ _jsxRuntime.jsxs("section", {
-                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
                             lineNumber: 49
@@ -23058,7 +23058,7 @@ const App = ()=>{
                         ]
                     }),
                     /*#__PURE__*/ _jsxRuntime.jsxs("section", {
-                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
                             lineNumber: 66
