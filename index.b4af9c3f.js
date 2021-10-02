@@ -22796,164 +22796,352 @@ const App = ()=>{
                     ]
                 })
             }),
-            /*#__PURE__*/ _jsxRuntime.jsxs("section", {
-                className: "max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
+            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                className: "snap snap-y snap-mandatory max-h-screen overflow-y-scroll",
                 __source: {
                     fileName: "src/App.tsx",
                     lineNumber: 18
                 },
                 __self: undefined,
                 children: [
-                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                        className: "text-green-400 font-mono mb-1",
+                    /*#__PURE__*/ _jsxRuntime.jsxs("section", {
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
                         __source: {
                             fileName: "src/App.tsx",
                             lineNumber: 19
                         },
                         __self: undefined,
-                        children: "01. Intro."
-                    }),
-                    /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                        className: "text-4xl sm:text-5xl text-gray-400 font-bold",
-                        __source: {
-                            fileName: "src/App.tsx",
-                            lineNumber: 20
-                        },
-                        __self: undefined,
                         children: [
-                            "I'm ",
                             /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                className: "text-gray-100",
+                                className: "text-green-400 font-mono mb-1",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 20
+                                },
+                                __self: undefined,
+                                children: "[0] Intro."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
                                     lineNumber: 21
                                 },
                                 __self: undefined,
-                                children: "David Lee"
+                                children: [
+                                    "I'm",
+                                    ' ',
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        id: "name",
+                                        className: "bg-clip-text text-transparent",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 23
+                                        },
+                                        __self: undefined,
+                                        children: "David Lee"
+                                    }),
+                                    ' ',
+                                    "(a.k.a.\xa0tica),"
+                                ]
                             }),
-                            " (a.k.a.\xa0tica),"
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                        className: "text-4xl sm:text-5xl text-gray-400 font-bold",
-                        __source: {
-                            fileName: "src/App.tsx",
-                            lineNumber: 23
-                        },
-                        __self: undefined,
-                        children: "a student \"pseudo-developer\"."
-                    }),
-                    /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                        className: "text-gray-400 text-lg font-medium mt-4",
-                        __source: {
-                            fileName: "src/App.tsx",
-                            lineNumber: 24
-                        },
-                        __self: undefined,
-                        children: [
-                            "아주 평범한 ",
-                            new Date().getFullYear() - 2006 + 1,
-                            "살 유사 개발자입니다."
-                        ]
-                    }),
-                    /*#__PURE__*/ _jsxRuntime.jsxs("ul", {
-                        className: "text-gray-400 font-medium mt-2",
-                        __source: {
-                            fileName: "src/App.tsx",
-                            lineNumber: 25
-                        },
-                        __self: undefined,
-                        children: [
-                            /*#__PURE__*/ _jsxRuntime.jsxs("li", {
-                                className: "mt-0",
+                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 26
+                                    lineNumber: 28
+                                },
+                                __self: undefined,
+                                children: "a student \"pseudo-developer\"."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-gray-400 text-lg font-medium mt-4",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 29
                                 },
                                 __self: undefined,
                                 children: [
-                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                        className: "border-transparent inline-block",
-                                        style: {
-                                            borderWidth: 5,
-                                            borderLeftColor: 'rgb(156, 163, 175)'
-                                        },
-                                        __source: {
-                                            fileName: "src/App.tsx",
-                                            lineNumber: 27
-                                        },
-                                        __self: undefined
-                                    }),
-                                    "쓸모 없어진 레포를 누적 100개 가량 삭제하며 수많은 커밋 내역을 날려버린 문화대혁명의 축소판"
+                                    "아주 평범한 ",
+                                    new Date().getFullYear() - 2006 + 1,
+                                    "살 유사 개발자입니다."
                                 ]
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("li", {
-                                className: "mt-1",
+                            /*#__PURE__*/ _jsxRuntime.jsxs("ul", {
+                                className: "text-gray-400 font-medium mt-2",
                                 __source: {
                                     fileName: "src/App.tsx",
                                     lineNumber: 30
                                 },
                                 __self: undefined,
                                 children: [
-                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                        className: "border-transparent inline-block",
-                                        style: {
-                                            borderWidth: 5,
-                                            borderLeftColor: 'rgb(156, 163, 175)'
-                                        },
+                                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                                        className: "mt-0",
                                         __source: {
                                             fileName: "src/App.tsx",
                                             lineNumber: 31
                                         },
-                                        __self: undefined
+                                        __self: undefined,
+                                        children: [
+                                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                                className: "border-transparent inline-block",
+                                                style: {
+                                                    borderWidth: 5,
+                                                    borderLeftColor: 'rgb(156, 163, 175)'
+                                                },
+                                                __source: {
+                                                    fileName: "src/App.tsx",
+                                                    lineNumber: 32
+                                                },
+                                                __self: undefined
+                                            }),
+                                            "쓸모 없어진 레포를 누적 100개 가량 삭제하며 수많은 커밋 내역을 날려버린 문화대혁명의 축소판"
+                                        ]
                                     }),
-                                    "쓸모 있는 레포는 단 한개도 없지만 매일 무언가를 만들고는 있는 시간 낭비 전문가"
-                                ]
-                            }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("li", {
-                                className: "mt-1",
-                                __source: {
-                                    fileName: "src/App.tsx",
-                                    lineNumber: 34
-                                },
-                                __self: undefined,
-                                children: [
-                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
-                                        className: "border-transparent inline-block",
-                                        style: {
-                                            borderWidth: 5,
-                                            borderLeftColor: 'rgb(156, 163, 175)'
-                                        },
+                                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                                        className: "mt-1",
                                         __source: {
                                             fileName: "src/App.tsx",
                                             lineNumber: 35
                                         },
-                                        __self: undefined
+                                        __self: undefined,
+                                        children: [
+                                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                                className: "border-transparent inline-block",
+                                                style: {
+                                                    borderWidth: 5,
+                                                    borderLeftColor: 'rgb(156, 163, 175)'
+                                                },
+                                                __source: {
+                                                    fileName: "src/App.tsx",
+                                                    lineNumber: 36
+                                                },
+                                                __self: undefined
+                                            }),
+                                            "쓸모 있는 레포는 단 한개도 없지만 매일 무언가를 만들고는 있는 시간 낭비 전문가"
+                                        ]
                                     }),
-                                    "매번 큰 차이는 없을 걸 알면서도 코드 퀄리티 높인답시고 프로젝트를 갈아 엎는 멍청이"
+                                    /*#__PURE__*/ _jsxRuntime.jsxs("li", {
+                                        className: "mt-1",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 39
+                                        },
+                                        __self: undefined,
+                                        children: [
+                                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                                className: "border-transparent inline-block",
+                                                style: {
+                                                    borderWidth: 5,
+                                                    borderLeftColor: 'rgb(156, 163, 175)'
+                                                },
+                                                __source: {
+                                                    fileName: "src/App.tsx",
+                                                    lineNumber: 40
+                                                },
+                                                __self: undefined
+                                            }),
+                                            "매번 큰 차이는 없을 걸 알면서도 코드 퀄리티 높인답시고 프로젝트를 갈아 엎는 멍청이"
+                                        ]
+                                    })
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("a", {
+                                href: "https://github.com/thoratica",
+                                target: "_blank",
+                                className: "text-gray-200 font-light mt-4 flex border border-gray-700 px-5 py-2.5 rounded-lg transition-colors hover:bg-gray-700",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 44
+                                },
+                                __self: undefined,
+                                children: [
+                                    "GitHub 프로필",
+                                    /*#__PURE__*/ _jsxRuntime.jsx(_reactSvg.ReactSVG, {
+                                        src: "./arrow-right.svg",
+                                        className: "h-6 ml-1",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 46
+                                        },
+                                        __self: undefined
+                                    })
                                 ]
                             })
                         ]
                     }),
-                    /*#__PURE__*/ _jsxRuntime.jsxs("a", {
-                        href: "https://github.com/thoratica",
-                        target: "_blank",
-                        className: "text-gray-200 font-light mt-4 flex border border-gray-700 px-5 py-2.5 rounded-lg transition-colors hover:bg-gray-700",
+                    /*#__PURE__*/ _jsxRuntime.jsxs("section", {
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
                         __source: {
                             fileName: "src/App.tsx",
-                            lineNumber: 39
+                            lineNumber: 49
                         },
                         __self: undefined,
                         children: [
-                            "GitHub 프로필",
-                            /*#__PURE__*/ _jsxRuntime.jsx(_reactSvg.ReactSVG, {
-                                src: "./arrow-right.svg",
-                                className: "h-6 ml-1",
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                className: "text-green-400 font-mono mb-1",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 41
+                                    lineNumber: 50
                                 },
-                                __self: undefined
+                                __self: undefined,
+                                children: "[1] About."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 51
+                                },
+                                __self: undefined,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "text-gray-200",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 52
+                                        },
+                                        __self: undefined,
+                                        children: "pseudo"
+                                    }),
+                                    "-developer"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 55
+                                },
+                                __self: undefined,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "text-gray-200",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 56
+                                        },
+                                        __self: undefined,
+                                        children: "pseudo"
+                                    }),
+                                    "-designer"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                className: "text-gray-400 text-lg font-medium mt-4",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 59
+                                },
+                                __self: undefined,
+                                children: "취미로 개발하는 그저 평범한 학생입니다."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-gray-400 text-lg font-medium mt-2",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 60
+                                },
+                                __self: undefined,
+                                children: [
+                                    "개발을 못하지만 개발을 좋아합니다.",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 62
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "디자인을 못하지만 디자인을 좋아합니다."
+                                ]
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsxs("section", {
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4",
+                        __source: {
+                            fileName: "src/App.tsx",
+                            lineNumber: 66
+                        },
+                        __self: undefined,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                className: "text-green-400 font-mono mb-1",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 67
+                                },
+                                __self: undefined,
+                                children: "[2] Skills."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 68
+                                },
+                                __self: undefined,
+                                children: [
+                                    "JavaScript ",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "text-gray-200",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 69
+                                        },
+                                        __self: undefined,
+                                        children: "TypeScript"
+                                    }),
+                                    " Kotlin Java Go …"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-4xl sm:text-5xl text-gray-400 font-bold",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 71
+                                },
+                                __self: undefined,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "text-gray-200",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 72
+                                        },
+                                        __self: undefined,
+                                        children: "Photoshop"
+                                    }),
+                                    " Illustrator …"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                className: "text-gray-400 text-lg font-medium mt-4",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 74
+                                },
+                                __self: undefined,
+                                children: "취미로 이것저것 하는 그저 평범한 학생입니다."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                className: "text-gray-400 text-lg font-medium mt-2",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 75
+                                },
+                                __self: undefined,
+                                children: [
+                                    "개발을 못하지만 개발을 좋아합니다.",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 77
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "디자인을 못하지만 디자인을 좋아합니다."
+                                ]
                             })
                         ]
                     })
