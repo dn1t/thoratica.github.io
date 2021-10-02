@@ -22738,9 +22738,6 @@ const App = ()=>{
     const snap = _react.useRef(null);
     return(/*#__PURE__*/ _jsxRuntime.jsxs("div", {
         className: "h-full",
-        style: {
-            backgroundColor: '#0a192f'
-        },
         __source: {
             fileName: "src/App.tsx",
             lineNumber: 9
@@ -23915,7 +23912,7 @@ const App = ()=>{
                                     lineNumber: 227
                                 },
                                 __self: undefined,
-                                children: "[대충 프로젝트들이 들어갈 자리]"
+                                children: "(대충 프로젝트들이 들어갈 자리)"
                             })
                         ]
                     })
