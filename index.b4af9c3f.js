@@ -23034,7 +23034,7 @@ const App = ()=>{
                                     lineNumber: 59
                                 },
                                 __self: undefined,
-                                children: "취미로 개발하는 그저 평범한 학생입니다."
+                                children: "취미, 능력, 모든 게 컴퓨터인 학생입니다. 컴퓨터만 있다면 게임을 해도, 공부를 해도, 뭘 해도 즐겁습니다."
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                 className: "text-gray-400 text-lg font-medium mt-2",
@@ -23092,7 +23092,7 @@ const App = ()=>{
                                         __self: undefined,
                                         children: "TypeScript"
                                     }),
-                                    " Kotlin Java Go …"
+                                    " Kotlin Java …"
                                 ]
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
@@ -23115,14 +23115,24 @@ const App = ()=>{
                                     " Illustrator …"
                                 ]
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                 className: "text-gray-400 text-lg font-medium mt-4",
                                 __source: {
                                     fileName: "src/App.tsx",
                                     lineNumber: 74
                                 },
                                 __self: undefined,
-                                children: "취미로 이것저것 하는 그저 평범한 학생입니다."
+                                children: [
+                                    "JS, TS, Kotlin, Java 등 여러 언어를 사용할 수 있습니다.",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 74
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "Go, Rust, C++ 등의 언어들을 학습하고 있습니다."
+                                ]
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                 className: "text-gray-400 text-lg font-medium mt-2",
@@ -23132,7 +23142,7 @@ const App = ()=>{
                                 },
                                 __self: undefined,
                                 children: [
-                                    "개발을 못하지만 개발을 좋아합니다.",
+                                    "프로그래밍 언어는 주로 TypeScript를 사용합니다.",
                                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                                         __source: {
                                             fileName: "src/App.tsx",
@@ -23140,7 +23150,7 @@ const App = ()=>{
                                         },
                                         __self: undefined
                                     }),
-                                    "디자인을 못하지만 디자인을 좋아합니다."
+                                    "디자인 툴은 주로 Photoshop을 사용합니다."
                                 ]
                             })
                         ]
