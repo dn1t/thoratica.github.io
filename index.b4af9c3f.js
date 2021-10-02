@@ -22999,7 +22999,7 @@ const App = ()=>{
                                                 },
                                                 __self: undefined
                                             }),
-                                            "A microcosm of Cultural Revolution, blowing up hudreds of commit history by deleting over 100 unused repos."
+                                            "A microcosm of Cultural Revolution who blowed up hudreds of commit history by deleting over 100 unused repos."
                                         ]
                                     }),
                                     /*#__PURE__*/ _jsxRuntime.jsxs("li", {
