@@ -7,3 +7,17 @@
 * {
   font-family: 'Pretendard', sans-serif;
 }
+
+#name {
+  background-image: url(./logobg.png);
+  animation: backgroundScroll 15s linear;
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: bottom right;
+  }
+}
