@@ -44,7 +44,7 @@ const App = () => {
           <div className='text-gray-400 text-lg font-medium mt-4'>A {new Date().getFullYear() - 2006 + 1}-year-old "pseudo-developer", "developer-like person" or something.</div>
           <ul className='text-gray-400 font-medium mt-2'>
             <li className='mt-0'>
-              <span className='border-transparent inline-block' style={{ borderWidth: 5, borderLeftColor: 'rgb(156, 163, 175)' }} />A microcosm of Cultural Revolution, blowing up hudreds of commit history by deleting over 100 unused repos.
+              <span className='border-transparent inline-block' style={{ borderWidth: 5, borderLeftColor: 'rgb(156, 163, 175)' }} />A microcosm of Cultural Revolution who blowed up hudreds of commit history by deleting over 100 unused repos.
             </li>
             <li className='mt-1'>
               <span className='border-transparent inline-block' style={{ borderWidth: 5, borderLeftColor: 'rgb(156, 163, 175)' }} />A time-wasting expert who doesn't have a single useful repo, but always building something.
