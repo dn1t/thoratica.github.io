@@ -56,7 +56,7 @@ const App = () => {
             <span className='text-gray-200'>pseudo</span>
             -designer
           </div>
-          <div className='text-gray-400 text-lg font-medium mt-4'>취미로 개발하는 그저 평범한 학생입니다.</div>
+          <div className='text-gray-400 text-lg font-medium mt-4'>취미, 능력, 모든 게 컴퓨터인 학생입니다. 컴퓨터만 있다면 게임을 해도, 공부를 해도, 뭘 해도 즐겁습니다.</div>
           <div className='text-gray-400 text-lg font-medium mt-2'>
             개발을 못하지만 개발을 좋아합니다.
             <br />
@@ -66,16 +66,16 @@ const App = () => {
         <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
           <span className='text-green-400 font-mono mb-1'>[2] Skills.</span>
           <div className='text-4xl sm:text-5xl text-gray-400 font-bold'>
-            JavaScript <span className='text-gray-200'>TypeScript</span> Kotlin Java Go …
+            JavaScript <span className='text-gray-200'>TypeScript</span> Kotlin Java …
           </div>
           <div className='text-4xl sm:text-5xl text-gray-400 font-bold'>
             <span className='text-gray-200'>Photoshop</span> Illustrator …
           </div>
-          <div className='text-gray-400 text-lg font-medium mt-4'>취미로 이것저것 하는 그저 평범한 학생입니다.</div>
+          <div className='text-gray-400 text-lg font-medium mt-4'>JS, TS, Kotlin, Java 등 여러 언어를 사용할 수 있습니다.<br/>Go, Rust, C++ 등의 언어들을 학습하고 있습니다.</div>
           <div className='text-gray-400 text-lg font-medium mt-2'>
-            개발을 못하지만 개발을 좋아합니다.
+            프로그래밍 언어는 주로 TypeScript를 사용합니다.
             <br />
-            디자인을 못하지만 디자인을 좋아합니다.
+            디자인 툴은 주로 Photoshop을 사용합니다.
           </div>
         </section>
       </div>
