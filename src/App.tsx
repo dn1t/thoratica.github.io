@@ -56,11 +56,13 @@ const App = () => {
             <span className='text-gray-200'>pseudo</span>
             -designer
           </div>
-          <div className='text-gray-400 text-lg font-medium mt-4'>취미, 능력, 모든 게 컴퓨터인 학생입니다. 컴퓨터만 있다면 게임을 해도, 공부를 해도, 뭘 해도 즐겁습니다.</div>
+          <div className='text-gray-400 text-lg font-medium mt-4'>취미, 능력, 모든 게 컴퓨터인 학생입니다.</div>
           <div className='text-gray-400 text-lg font-medium mt-2'>
             개발을 못하지만 개발을 좋아합니다.
             <br />
             디자인을 못하지만 디자인을 좋아합니다.
+            <br />
+            내가 컴퓨터 중독이 아니라고 우기는건 잘 합니다.
           </div>
         </section>
         <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
