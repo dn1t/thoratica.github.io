@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className='h-full' style={{ backgroundColor: '#0a192f' }}>
       <div className='fixed w-screen'>
-        <nav className='max-w-7xl h-20 flex items-center mx-auto px-4 sticky top-0'>
+        <nav className='max-w-7xl h-20 flex items-center mx-auto px-4 md:px-12 sticky top-0'>
           <img src={logo} className='h-10' />
           <div className='ml-auto'>
             <a href='https://github.com/thoratica' target='_blank'>
@@ -16,7 +16,7 @@ const App = () => {
         </nav>
       </div>
       <div className='snap snap-y snap-mandatory max-h-screen overflow-y-scroll'>
-        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4'>
+        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
           <span className='text-green-400 font-mono mb-1'>[0] Intro.</span>
           <div className='text-4xl sm:text-5xl text-gray-400 font-bold'>
             I'm{' '}
@@ -46,7 +46,7 @@ const App = () => {
             <ReactSVG src='./arrow-right.svg' className='h-6 ml-1' />
           </a>
         </section>
-        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4'>
+        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
           <span className='text-green-400 font-mono mb-1'>[1] About.</span>
           <div className='text-4xl sm:text-5xl text-gray-400 font-bold'>
             <span className='text-gray-200'>pseudo</span>
@@ -63,7 +63,7 @@ const App = () => {
             디자인을 못하지만 디자인을 좋아합니다.
           </div>
         </section>
-        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4'>
+        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
           <span className='text-green-400 font-mono mb-1'>[2] Skills.</span>
           <div className='text-4xl sm:text-5xl text-gray-400 font-bold'>
             JavaScript <span className='text-gray-200'>TypeScript</span> Kotlin Java Go …
