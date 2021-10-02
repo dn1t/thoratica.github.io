@@ -6,7 +6,7 @@ const App = () => {
   const snap = useRef<HTMLDivElement>(null);
 
   return (
-    <div className='h-full' style={{ backgroundColor: '#0a192f' }}>
+    <div className='h-full'>
       <ul className='circles'>
         <li></li>
         <li></li>
@@ -224,7 +224,7 @@ const App = () => {
             <br />
             Of course, ends up with scrap.
           </div>
-          <h3 className='text-4xl text-white mt-4'>[대충 프로젝트들이 들어갈 자리]</h3>
+          <h3 className='text-4xl text-white mt-4'>(대충 프로젝트들이 들어갈 자리)</h3>
         </section>
       </div>
     </div>

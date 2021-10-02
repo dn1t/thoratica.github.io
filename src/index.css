@@ -14,6 +14,10 @@
   padding: 1rem;
 }
 
+body {
+  background-color: #0a192f;
+}
+
 #name {
   background-image: url(./logobg.png);
   animation: backgroundScroll 15s linear;
