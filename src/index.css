@@ -20,7 +20,8 @@ body {
 
 #name {
   background-image: url(./logobg.png);
-  animation: backgroundScroll 15s linear;
+  background-size: cover;
+  animation: backgroundScroll 10s infinite linear;
 }
 
 @keyframes backgroundScroll {
