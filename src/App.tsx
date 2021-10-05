@@ -338,7 +338,7 @@ const App = () => {
           </h2>
           <div className='text-gray-400 text-lg font-medium mt-4'>You can contact me in any way. Select one method above.</div>
         </section>
-        <section className='snap-end max-w-7xl h-auto flex flex-col items-start justify-center mx-auto px-4 py-8 md:px-12'>
+        <section className='snap-start max-w-7xl h-auto flex flex-col items-start justify-center mx-auto px-4 py-8 md:px-12'>
           <span className='text-green-400 font-mono mb-1'>[5] Footer.</span>
           <h3 className='text-lg text-gray-500 font-medium'>
             <span className='mr-4'>2021 tica.</span>
