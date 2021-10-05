@@ -313,6 +313,40 @@ const App = () => {
             </div>
           </Scrollbars>
         </section>
+        <section className='snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
+          <span className='text-green-400 font-mono mb-1'>[4] Contact.</span>
+          <h2 className='text-3xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold'>
+            email="
+            <a className='text-gray-200' href='mailto:me@tica.fun' target='_blank'>
+              me@tica.fun
+            </a>
+            ",
+            <br />
+            telegram="
+            <a className='text-gray-200' href='https://t.me/thoratica' target='_blank'>
+              @thoratica
+            </a>
+            ",
+            <br />
+            discord="<span className='text-gray-200'>tica#4158</span>",
+            <br />
+            kakaotalk="
+            <a className='text-gray-200' href='http://qr.kakao.com/talk/_8KlFWCvsxEHFbZzVVoGNvzxL.c-' target='_blank' onClick={() => alert('Can only be opened when KakaoTalk is already installed in your device.')}>
+              tica27
+            </a>
+            ";
+          </h2>
+          <div className='text-gray-400 text-lg font-medium mt-4'>You can contact me in any way. Select one method above.</div>
+        </section>
+        <section className='snap-end max-w-7xl h-auto flex flex-col items-start justify-center mx-auto px-4 py-8 md:px-12'>
+          <span className='text-green-400 font-mono mb-1'>[5] Footer.</span>
+          <h3 className='text-lg text-gray-500 font-medium'>
+            <span className='mr-4'>2021 tica.</span>
+            <a className='hover:text-gray-400 transition-colors' href='https://github.com/thoratica/thoratica.github.io/fork' target='_blank'>
+              Fork this page on GitHub
+            </a>
+          </h3>
+        </section>
       </div>
     </div>
   );
