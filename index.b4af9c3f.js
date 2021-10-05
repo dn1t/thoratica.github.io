@@ -22729,6 +22729,8 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _jsxRuntime = require("react/jsx-runtime");
 var _react = require("react");
+var _reactCustomScrollbars2 = require("react-custom-scrollbars-2");
+var _reactCustomScrollbars2Default = parcelHelpers.interopDefault(_reactCustomScrollbars2);
 var _reactSvg = require("react-svg");
 var _logoPng = require("./logo.png");
 var _logoPngDefault = parcelHelpers.interopDefault(_logoPng);
@@ -22740,7 +22742,7 @@ const App = ()=>{
         className: "h-full",
         __source: {
             fileName: "src/App.tsx",
-            lineNumber: 9
+            lineNumber: 10
         },
         __self: undefined,
         children: [
@@ -22748,17 +22750,10 @@ const App = ()=>{
                 className: "circles",
                 __source: {
                     fileName: "src/App.tsx",
-                    lineNumber: 10
+                    lineNumber: 11
                 },
                 __self: undefined,
                 children: [
-                    /*#__PURE__*/ _jsxRuntime.jsx("li", {
-                        __source: {
-                            fileName: "src/App.tsx",
-                            lineNumber: 11
-                        },
-                        __self: undefined
-                    }),
                     /*#__PURE__*/ _jsxRuntime.jsx("li", {
                         __source: {
                             fileName: "src/App.tsx",
@@ -22821,6 +22816,13 @@ const App = ()=>{
                             lineNumber: 20
                         },
                         __self: undefined
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsx("li", {
+                        __source: {
+                            fileName: "src/App.tsx",
+                            lineNumber: 21
+                        },
+                        __self: undefined
                     })
                 ]
             }),
@@ -22828,14 +22830,14 @@ const App = ()=>{
                 className: "fixed w-screen z-30",
                 __source: {
                     fileName: "src/App.tsx",
-                    lineNumber: 22
+                    lineNumber: 23
                 },
                 __self: undefined,
                 children: /*#__PURE__*/ _jsxRuntime.jsxs("nav", {
                     className: "max-w-7xl h-20 flex items-center mx-auto px-4 md:px-12 sticky top-0",
                     __source: {
                         fileName: "src/App.tsx",
-                        lineNumber: 23
+                        lineNumber: 24
                     },
                     __self: undefined,
                     children: [
@@ -22844,7 +22846,7 @@ const App = ()=>{
                             className: "h-10",
                             __source: {
                                 fileName: "src/App.tsx",
-                                lineNumber: 24
+                                lineNumber: 25
                             },
                             __self: undefined
                         }),
@@ -22852,7 +22854,7 @@ const App = ()=>{
                             className: "ml-auto",
                             __source: {
                                 fileName: "src/App.tsx",
-                                lineNumber: 25
+                                lineNumber: 26
                             },
                             __self: undefined,
                             children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
@@ -22860,7 +22862,7 @@ const App = ()=>{
                                 target: "_blank",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 26
+                                    lineNumber: 27
                                 },
                                 __self: undefined,
                                 children: /*#__PURE__*/ _jsxRuntime.jsx(_reactSvg.ReactSVG, {
@@ -22868,7 +22870,7 @@ const App = ()=>{
                                     className: "h-6 text-gray-500 transition-colors hover:text-gray-200",
                                     __source: {
                                         fileName: "src/App.tsx",
-                                        lineNumber: 27
+                                        lineNumber: 28
                                     },
                                     __self: undefined
                                 })
@@ -22882,7 +22884,7 @@ const App = ()=>{
                 ref: snap,
                 __source: {
                     fileName: "src/App.tsx",
-                    lineNumber: 32
+                    lineNumber: 33
                 },
                 __self: undefined,
                 children: [
@@ -22890,7 +22892,7 @@ const App = ()=>{
                         className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
-                            lineNumber: 33
+                            lineNumber: 34
                         },
                         __self: undefined,
                         children: [
@@ -22898,16 +22900,16 @@ const App = ()=>{
                                 className: "text-green-400 font-mono mb-1",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 34
+                                    lineNumber: 35
                                 },
                                 __self: undefined,
                                 children: "[0] Intro."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h1", {
                                 className: "text-3xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 35
+                                    lineNumber: 36
                                 },
                                 __self: undefined,
                                 children: [
@@ -22918,7 +22920,7 @@ const App = ()=>{
                                         className: "bg-clip-text text-transparent",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 37
+                                            lineNumber: 38
                                         },
                                         __self: undefined,
                                         children: "David Lee"
@@ -22929,7 +22931,7 @@ const App = ()=>{
                                         className: "hidden xs:block",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 41
+                                            lineNumber: 42
                                         },
                                         __self: undefined
                                     }),
@@ -22937,7 +22939,7 @@ const App = ()=>{
                                         className: "inline",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 42
+                                            lineNumber: 43
                                         },
                                         __self: undefined,
                                         children: " "
@@ -22947,7 +22949,7 @@ const App = ()=>{
                                         className: "whitespace-pre",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 42
+                                            lineNumber: 43
                                         },
                                         __self: undefined,
                                         children: "\"pseudo-developer\""
@@ -22959,20 +22961,26 @@ const App = ()=>{
                                 className: "text-gray-400 text-lg font-medium mt-4",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 44
+                                    lineNumber: 45
                                 },
                                 __self: undefined,
                                 children: [
-                                    "A ",
+                                    "A",
+                                    ' ',
+                                    (()=>{
+                                        const date = new Date();
+                                        return date.getMonth() === 9 && date.getDate() >= 27 || date.getMonth() > 9 ? date.getFullYear() - 2006 : date.getFullYear() - 2006 - 1;
+                                    })(),
+                                    "-year-old (",
                                     new Date().getFullYear() - 2006 + 1,
-                                    "-year-old \"pseudo-developer\", \"developer-like person\" or something."
+                                    "-year-old in Korean age) \"pseudo-developer\", \"developer-like person\" or something."
                                 ]
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsxs("ul", {
                                 className: "text-gray-400 font-medium mt-2",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 45
+                                    lineNumber: 53
                                 },
                                 __self: undefined,
                                 children: [
@@ -22980,7 +22988,7 @@ const App = ()=>{
                                         className: "mt-0",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 46
+                                            lineNumber: 54
                                         },
                                         __self: undefined,
                                         children: [
@@ -22992,7 +23000,7 @@ const App = ()=>{
                                                 },
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 47
+                                                    lineNumber: 55
                                                 },
                                                 __self: undefined
                                             }),
@@ -23003,7 +23011,7 @@ const App = ()=>{
                                         className: "mt-1",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 49
+                                            lineNumber: 57
                                         },
                                         __self: undefined,
                                         children: [
@@ -23015,7 +23023,7 @@ const App = ()=>{
                                                 },
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 50
+                                                    lineNumber: 58
                                                 },
                                                 __self: undefined
                                             }),
@@ -23026,7 +23034,7 @@ const App = ()=>{
                                         className: "mt-1",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 52
+                                            lineNumber: 60
                                         },
                                         __self: undefined,
                                         children: [
@@ -23038,7 +23046,7 @@ const App = ()=>{
                                                 },
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 53
+                                                    lineNumber: 61
                                                 },
                                                 __self: undefined
                                             }),
@@ -23056,7 +23064,7 @@ const App = ()=>{
                                 ,
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 56
+                                    lineNumber: 64
                                 },
                                 __self: undefined,
                                 children: [
@@ -23065,7 +23073,7 @@ const App = ()=>{
                                         className: "h-6 text-gray-500 mr-1",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 57
+                                            lineNumber: 65
                                         },
                                         __self: undefined
                                     }),
@@ -23078,7 +23086,7 @@ const App = ()=>{
                         className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
-                            lineNumber: 61
+                            lineNumber: 69
                         },
                         __self: undefined,
                         children: [
@@ -23086,16 +23094,16 @@ const App = ()=>{
                                 className: "text-green-400 font-mono mb-1",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 62
+                                    lineNumber: 70
                                 },
                                 __self: undefined,
                                 children: "[1] About."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h2", {
                                 className: "text-4xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 63
+                                    lineNumber: 71
                                 },
                                 __self: undefined,
                                 children: [
@@ -23103,7 +23111,7 @@ const App = ()=>{
                                         className: "text-gray-200",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 64
+                                            lineNumber: 72
                                         },
                                         __self: undefined,
                                         children: "pseudo"
@@ -23112,7 +23120,7 @@ const App = ()=>{
                                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 66
+                                            lineNumber: 74
                                         },
                                         __self: undefined
                                     }),
@@ -23120,7 +23128,7 @@ const App = ()=>{
                                         className: "text-gray-200",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 67
+                                            lineNumber: 75
                                         },
                                         __self: undefined,
                                         children: "pseudo"
@@ -23132,7 +23140,7 @@ const App = ()=>{
                                 className: "text-gray-400 text-lg font-medium mt-4",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 70
+                                    lineNumber: 78
                                 },
                                 __self: undefined,
                                 children: "Computers as a hobby since 2016. Started web development in 2017."
@@ -23141,7 +23149,7 @@ const App = ()=>{
                                 className: "text-gray-400 text-lg font-medium mt-2",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 71
+                                    lineNumber: 79
                                 },
                                 __self: undefined,
                                 children: [
@@ -23149,7 +23157,7 @@ const App = ()=>{
                                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 73
+                                            lineNumber: 81
                                         },
                                         __self: undefined
                                     }),
@@ -23160,7 +23168,7 @@ const App = ()=>{
                                 className: "flex gap-3",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 76
+                                    lineNumber: 84
                                 },
                                 __self: undefined,
                                 children: [
@@ -23170,17 +23178,17 @@ const App = ()=>{
                                         className: "text-gray-200 font-light mt-4 flex border border-gray-700 px-5 py-2.5 rounded-lg transition-colors hover:bg-gray-700",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 77
+                                            lineNumber: 85
                                         },
                                         __self: undefined,
                                         children: [
-                                            "GitHub Profile",
+                                            "GitHub",
                                             /*#__PURE__*/ _jsxRuntime.jsx(_reactSvg.ReactSVG, {
                                                 src: "./arrow-right.svg",
                                                 className: "h-6 ml-1",
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 79
+                                                    lineNumber: 87
                                                 },
                                                 __self: undefined
                                             })
@@ -23192,17 +23200,17 @@ const App = ()=>{
                                         className: "text-gray-200 font-light mt-4 flex border border-gray-700 px-5 py-2.5 rounded-lg transition-colors hover:bg-gray-700",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 81
+                                            lineNumber: 89
                                         },
                                         __self: undefined,
                                         children: [
-                                            "Dribbble Profile",
+                                            "Dribbble",
                                             /*#__PURE__*/ _jsxRuntime.jsx(_reactSvg.ReactSVG, {
                                                 src: "./arrow-right.svg",
                                                 className: "h-6 ml-1",
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 83
+                                                    lineNumber: 91
                                                 },
                                                 __self: undefined
                                             })
@@ -23216,7 +23224,7 @@ const App = ()=>{
                         className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
-                            lineNumber: 87
+                            lineNumber: 95
                         },
                         __self: undefined,
                         children: [
@@ -23224,16 +23232,16 @@ const App = ()=>{
                                 className: "text-green-400 font-mono mb-1",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 88
+                                    lineNumber: 96
                                 },
                                 __self: undefined,
                                 children: "[2] Skills."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h2", {
                                 className: "text-3xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 89
+                                    lineNumber: 97
                                 },
                                 __self: undefined,
                                 children: [
@@ -23242,7 +23250,7 @@ const App = ()=>{
                                         className: "text-gray-200",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 90
+                                            lineNumber: 98
                                         },
                                         __self: undefined,
                                         children: "TypeScript"
@@ -23252,7 +23260,7 @@ const App = ()=>{
                                         className: "text-gray-200",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 90
+                                            lineNumber: 98
                                         },
                                         __self: undefined,
                                         children: "Photoshop"
@@ -23264,348 +23272,345 @@ const App = ()=>{
                                 className: "text-gray-400 text-lg font-medium mt-4",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 92
+                                    lineNumber: 100
                                 },
                                 __self: undefined,
                                 children: "Can use several languages like JS, TS, Kotlin, and Java. Learning languages like Go, Rust, and C++."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
                                 className: "text-gray-400 text-lg font-medium mt-2",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 93
+                                    lineNumber: 101
                                 },
                                 __self: undefined,
-                                children: [
-                                    "Mainly uses TypeScript for programming.",
-                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
-                                        __source: {
-                                            fileName: "src/App.tsx",
-                                            lineNumber: 95
-                                        },
-                                        __self: undefined
-                                    }),
-                                    "Mainly uses Photoshop for design."
-                                ]
+                                children: "Mainly using TypeScript for programming, Photoshop for design."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsx("table", {
                                 className: "hidden mt-4 w-full xs:table",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 98
+                                    lineNumber: 102
                                 },
                                 __self: undefined,
-                                children: [
-                                    /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
-                                        __source: {
-                                            fileName: "src/App.tsx",
-                                            lineNumber: 99
-                                        },
-                                        __self: undefined,
-                                        children: [
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 100
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "mr-2",
+                                children: /*#__PURE__*/ _jsxRuntime.jsxs("tbody", {
+                                    __source: {
+                                        fileName: "src/App.tsx",
+                                        lineNumber: 103
+                                    },
+                                    __self: undefined,
+                                    children: [
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 104
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 101
+                                                        lineNumber: 105
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 102
-                                                            },
-                                                            __self: undefined,
-                                                            children: "JavaScript"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 103
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-yellow-400 h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '90%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "mr-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 106
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 104
+                                                                    lineNumber: 107
                                                                 },
                                                                 __self: undefined,
-                                                                children: "90%"
+                                                                children: "JavaScript"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 108
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-yellow-400 h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '90%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 109
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "90%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
-                                                })
-                                            }),
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 110
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "ml-2",
+                                                        ]
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 111
+                                                        lineNumber: 115
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 112
-                                                            },
-                                                            __self: undefined,
-                                                            children: "TypeScript"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 113
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-blue-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '70%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "ml-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 116
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 114
+                                                                    lineNumber: 117
                                                                 },
                                                                 __self: undefined,
-                                                                children: "70%"
+                                                                children: "TypeScript"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 118
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-blue-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '70%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 119
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "70%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
+                                                        ]
+                                                    })
                                                 })
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
-                                        __source: {
-                                            fileName: "src/App.tsx",
-                                            lineNumber: 121
-                                        },
-                                        __self: undefined,
-                                        children: [
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 122
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "mr-2",
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 126
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 123
+                                                        lineNumber: 127
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 124
-                                                            },
-                                                            __self: undefined,
-                                                            children: "Kotlin"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 125
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-purple-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '50%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "mr-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 128
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 126
+                                                                    lineNumber: 129
                                                                 },
                                                                 __self: undefined,
-                                                                children: "50%"
+                                                                children: "Kotlin"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 130
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-purple-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '50%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 131
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "50%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
-                                                })
-                                            }),
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 132
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "ml-2",
+                                                        ]
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 133
+                                                        lineNumber: 137
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 134
-                                                            },
-                                                            __self: undefined,
-                                                            children: "Java"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 135
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-yellow-800 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '40%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "ml-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 138
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 136
+                                                                    lineNumber: 139
                                                                 },
                                                                 __self: undefined,
-                                                                children: "40%"
+                                                                children: "Java"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 140
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-yellow-800 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '40%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 141
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "40%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
+                                                        ]
+                                                    })
                                                 })
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
-                                        __source: {
-                                            fileName: "src/App.tsx",
-                                            lineNumber: 143
-                                        },
-                                        __self: undefined,
-                                        children: [
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 144
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "mr-2",
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("tr", {
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 148
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 145
+                                                        lineNumber: 149
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 146
-                                                            },
-                                                            __self: undefined,
-                                                            children: "Photoshop"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 147
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-blue-800 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '70%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "mr-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 150
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 148
+                                                                    lineNumber: 151
                                                                 },
                                                                 __self: undefined,
-                                                                children: "70%"
+                                                                children: "Photoshop"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 152
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-blue-800 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '70%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 153
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "70%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
-                                                })
-                                            }),
-                                            /*#__PURE__*/ _jsxRuntime.jsx("td", {
-                                                __source: {
-                                                    fileName: "src/App.tsx",
-                                                    lineNumber: 154
-                                                },
-                                                __self: undefined,
-                                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
-                                                    className: "ml-2",
+                                                        ]
+                                                    })
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("td", {
                                                     __source: {
                                                         fileName: "src/App.tsx",
-                                                        lineNumber: 155
+                                                        lineNumber: 159
                                                     },
                                                     __self: undefined,
-                                                    children: [
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "text-gray-200 font-medium text-lg",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 156
-                                                            },
-                                                            __self: undefined,
-                                                            children: "Illustrator"
-                                                        }),
-                                                        /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-gray-700 w-full rounded-full",
-                                                            __source: {
-                                                                fileName: "src/App.tsx",
-                                                                lineNumber: 157
-                                                            },
-                                                            __self: undefined,
-                                                            children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                                className: "bg-yellow-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
-                                                                style: {
-                                                                    width: '40%'
-                                                                },
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                        className: "ml-2",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 160
+                                                        },
+                                                        __self: undefined,
+                                                        children: [
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "text-gray-200 font-medium text-lg",
                                                                 __source: {
                                                                     fileName: "src/App.tsx",
-                                                                    lineNumber: 158
+                                                                    lineNumber: 161
                                                                 },
                                                                 __self: undefined,
-                                                                children: "40%"
+                                                                children: "Illustrator"
+                                                            }),
+                                                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                className: "bg-gray-700 w-full rounded-lg",
+                                                                __source: {
+                                                                    fileName: "src/App.tsx",
+                                                                    lineNumber: 162
+                                                                },
+                                                                __self: undefined,
+                                                                children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                                    className: "bg-yellow-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
+                                                                    style: {
+                                                                        width: '40%'
+                                                                    },
+                                                                    __source: {
+                                                                        fileName: "src/App.tsx",
+                                                                        lineNumber: 163
+                                                                    },
+                                                                    __self: undefined,
+                                                                    children: "40%"
+                                                                })
                                                             })
-                                                        })
-                                                    ]
+                                                        ]
+                                                    })
                                                 })
-                                            })
-                                        ]
-                                    })
-                                ]
+                                            ]
+                                        })
+                                    ]
+                                })
                             }),
                             /*#__PURE__*/ _jsxRuntime.jsxs("details", {
                                 className: "mt-2 w-full xs:hidden",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 166
+                                    lineNumber: 172
                                 },
                                 __self: undefined,
                                 children: [
@@ -23613,7 +23618,7 @@ const App = ()=>{
                                         className: "text-gray-200 font-medium select-none",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 167
+                                            lineNumber: 173
                                         },
                                         __self: undefined,
                                         children: "Toggle Open / Close"
@@ -23622,14 +23627,14 @@ const App = ()=>{
                                         className: "flex flex-col w-full",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 168
+                                            lineNumber: 174
                                         },
                                         __self: undefined,
                                         children: [
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 169
+                                                    lineNumber: 175
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23637,26 +23642,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 170
+                                                            lineNumber: 176
                                                         },
                                                         __self: undefined,
                                                         children: "JavaScript"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 171
+                                                            lineNumber: 177
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-yellow-400 h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-yellow-400 h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '90%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 172
+                                                                lineNumber: 178
                                                             },
                                                             __self: undefined,
                                                             children: "90%"
@@ -23667,7 +23672,7 @@ const App = ()=>{
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 177
+                                                    lineNumber: 183
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23675,26 +23680,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 178
+                                                            lineNumber: 184
                                                         },
                                                         __self: undefined,
                                                         children: "TypeScript"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 179
+                                                            lineNumber: 185
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-blue-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-blue-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '70%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 180
+                                                                lineNumber: 186
                                                             },
                                                             __self: undefined,
                                                             children: "70%"
@@ -23705,7 +23710,7 @@ const App = ()=>{
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 185
+                                                    lineNumber: 191
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23713,26 +23718,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 186
+                                                            lineNumber: 192
                                                         },
                                                         __self: undefined,
                                                         children: "Kotlin"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 187
+                                                            lineNumber: 193
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-purple-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-purple-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '50%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 188
+                                                                lineNumber: 194
                                                             },
                                                             __self: undefined,
                                                             children: "50%"
@@ -23743,7 +23748,7 @@ const App = ()=>{
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 193
+                                                    lineNumber: 199
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23751,26 +23756,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 194
+                                                            lineNumber: 200
                                                         },
                                                         __self: undefined,
                                                         children: "Java"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 195
+                                                            lineNumber: 201
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-yellow-800 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-yellow-800 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '40%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 196
+                                                                lineNumber: 202
                                                             },
                                                             __self: undefined,
                                                             children: "40%"
@@ -23781,7 +23786,7 @@ const App = ()=>{
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 201
+                                                    lineNumber: 207
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23789,26 +23794,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 202
+                                                            lineNumber: 208
                                                         },
                                                         __self: undefined,
                                                         children: "Photoshop"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 203
+                                                            lineNumber: 209
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-blue-800 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-blue-800 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '70%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 204
+                                                                lineNumber: 210
                                                             },
                                                             __self: undefined,
                                                             children: "70%"
@@ -23819,7 +23824,7 @@ const App = ()=>{
                                             /*#__PURE__*/ _jsxRuntime.jsxs("div", {
                                                 __source: {
                                                     fileName: "src/App.tsx",
-                                                    lineNumber: 209
+                                                    lineNumber: 215
                                                 },
                                                 __self: undefined,
                                                 children: [
@@ -23827,26 +23832,26 @@ const App = ()=>{
                                                         className: "text-gray-200 font-medium text-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 210
+                                                            lineNumber: 216
                                                         },
                                                         __self: undefined,
                                                         children: "Illustrator"
                                                     }),
                                                     /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                        className: "bg-gray-700 w-full rounded-full",
+                                                        className: "bg-gray-700 w-full rounded-lg",
                                                         __source: {
                                                             fileName: "src/App.tsx",
-                                                            lineNumber: 211
+                                                            lineNumber: 217
                                                         },
                                                         __self: undefined,
                                                         children: /*#__PURE__*/ _jsxRuntime.jsx("div", {
-                                                            className: "bg-yellow-600 text-white h-6 rounded-full flex items-center justify-end pr-2 font-medium",
+                                                            className: "bg-yellow-600 text-white h-6 rounded-lg flex items-center justify-end pr-2 font-medium",
                                                             style: {
                                                                 width: '40%'
                                                             },
                                                             __source: {
                                                                 fileName: "src/App.tsx",
-                                                                lineNumber: 212
+                                                                lineNumber: 218
                                                             },
                                                             __self: undefined,
                                                             children: "40%"
@@ -23864,7 +23869,7 @@ const App = ()=>{
                         className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
                         __source: {
                             fileName: "src/App.tsx",
-                            lineNumber: 220
+                            lineNumber: 226
                         },
                         __self: undefined,
                         children: [
@@ -23872,16 +23877,16 @@ const App = ()=>{
                                 className: "text-green-400 font-mono mb-1",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 221
+                                    lineNumber: 227
                                 },
                                 __self: undefined,
                                 children: "[3] Projects."
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h2", {
                                 className: "text-3xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold",
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 222
+                                    lineNumber: 228
                                 },
                                 __self: undefined,
                                 children: [
@@ -23890,7 +23895,7 @@ const App = ()=>{
                                         className: "text-gray-200",
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 223
+                                            lineNumber: 229
                                         },
                                         __self: undefined,
                                         children: "useful project."
@@ -23898,21 +23903,571 @@ const App = ()=>{
                                     /*#__PURE__*/ _jsxRuntime.jsx("br", {
                                         __source: {
                                             fileName: "src/App.tsx",
-                                            lineNumber: 224
+                                            lineNumber: 230
                                         },
                                         __self: undefined
                                     }),
-                                    "Of course, ends up with scrap."
+                                    "Of course, ends up with garbage."
                                 ]
                             }),
-                            /*#__PURE__*/ _jsxRuntime.jsx("h3", {
-                                className: "text-4xl text-white mt-4",
+                            /*#__PURE__*/ _jsxRuntime.jsx(_reactCustomScrollbars2Default.default, {
+                                autoHeight: true,
                                 __source: {
                                     fileName: "src/App.tsx",
-                                    lineNumber: 227
+                                    lineNumber: 233
                                 },
                                 __self: undefined,
-                                children: "(대충 프로젝트들이 들어갈 자리)"
+                                children: /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                    className: "mt-4 flex gap-3",
+                                    __source: {
+                                        fileName: "src/App.tsx",
+                                        lineNumber: 234
+                                    },
+                                    __self: undefined,
+                                    children: [
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 235
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 236
+                                                    },
+                                                    __self: undefined,
+                                                    children: "CocoaTalk"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 237
+                                                    },
+                                                    __self: undefined,
+                                                    children: "An unofficial PC client of KakaoTalk, a most widely-used messenger in South Korea."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 238
+                                                    },
+                                                    __self: undefined,
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                        href: "https://github.com/thoratica/CocoaTalk",
+                                                        target: "_blank",
+                                                        className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 239
+                                                        },
+                                                        __self: undefined,
+                                                        children: "GitHub"
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 244
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 245
+                                                    },
+                                                    __self: undefined,
+                                                    children: "lnkk.pw"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 246
+                                                    },
+                                                    __self: undefined,
+                                                    children: "An URL Shortener created with Node.js."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 247
+                                                    },
+                                                    __self: undefined,
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://github.com/thoratica/lnkk.pw",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 248
+                                                            },
+                                                            __self: undefined,
+                                                            children: "GitHub"
+                                                        }),
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://lnkk.pw",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 251
+                                                            },
+                                                            __self: undefined,
+                                                            children: "Website"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 256
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 257
+                                                    },
+                                                    __self: undefined,
+                                                    children: "SolveEncoder"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 258
+                                                    },
+                                                    __self: undefined,
+                                                    children: "A web-based encoder that helps you change any text in 0 and 1, and replace them into specified texts."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 259
+                                                    },
+                                                    __self: undefined,
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://github.com/thoratica/SolveEncoder",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 260
+                                                            },
+                                                            __self: undefined,
+                                                            children: "GitHub"
+                                                        }),
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://solve.tica.fun",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 263
+                                                            },
+                                                            __self: undefined,
+                                                            children: "Website"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 268
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 269
+                                                    },
+                                                    __self: undefined,
+                                                    children: "Shooshook Generator"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 270
+                                                    },
+                                                    __self: undefined,
+                                                    children: "A web-based generator that helps you generate Korean \"슉. 슈슉.\" meme in ease."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 271
+                                                    },
+                                                    __self: undefined,
+                                                    children: [
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://github.com/thoratica/Shooshook",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 272
+                                                            },
+                                                            __self: undefined,
+                                                            children: "GitHub"
+                                                        }),
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://shook.tica.fun",
+                                                            target: "_blank",
+                                                            className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 275
+                                                            },
+                                                            __self: undefined,
+                                                            children: "Website"
+                                                        })
+                                                    ]
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 280
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 281
+                                                    },
+                                                    __self: undefined,
+                                                    children: "remote-kakao"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 282
+                                                    },
+                                                    __self: undefined,
+                                                    children: "A Node.js module to make unofficial KakaoTalk bots (within the legal scope)."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 283
+                                                    },
+                                                    __self: undefined,
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                        href: "https://github.com/remote-kakao/remote-kakao",
+                                                        target: "_blank",
+                                                        className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 284
+                                                        },
+                                                        __self: undefined,
+                                                        children: "GitHub"
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 289
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 290
+                                                    },
+                                                    __self: undefined,
+                                                    children: "The NoIE License"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 291
+                                                    },
+                                                    __self: undefined,
+                                                    children: "A license created to expel Internet Explorer, the enemy of all, especially front-end developers."
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 292
+                                                    },
+                                                    __self: undefined,
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                        href: "https://github.com/thoratica/The-NoIE-License",
+                                                        target: "_blank",
+                                                        className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 293
+                                                        },
+                                                        __self: undefined,
+                                                        children: "GitHub"
+                                                    })
+                                                })
+                                            ]
+                                        }),
+                                        /*#__PURE__*/ _jsxRuntime.jsxs("div", {
+                                            className: "w-72 text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-2.5 rounded-xl flex-shrink-0",
+                                            __source: {
+                                                fileName: "src/App.tsx",
+                                                lineNumber: 298
+                                            },
+                                            __self: undefined,
+                                            children: [
+                                                /*#__PURE__*/ _jsxRuntime.jsx("h3", {
+                                                    className: "font-semibold text-2xl",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 299
+                                                    },
+                                                    __self: undefined,
+                                                    children: "entry-api"
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsxs("p", {
+                                                    className: "mb-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 300
+                                                    },
+                                                    __self: undefined,
+                                                    children: [
+                                                        "An unofficial GraphQL API wrapper for Entry (",
+                                                        /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                            href: "https://playentry.org",
+                                                            target: "_blank",
+                                                            className: "underline",
+                                                            __source: {
+                                                                fileName: "src/App.tsx",
+                                                                lineNumber: 302
+                                                            },
+                                                            __self: undefined,
+                                                            children: "https://playentry.org"
+                                                        }),
+                                                        ")."
+                                                    ]
+                                                }),
+                                                /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                                    className: "flex mt-auto gap-2",
+                                                    __source: {
+                                                        fileName: "src/App.tsx",
+                                                        lineNumber: 307
+                                                    },
+                                                    __self: undefined,
+                                                    children: /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                                        href: "https://github.com/thoratica/entry-api",
+                                                        target: "_blank",
+                                                        className: "text-gray-200 font-light flex flex-col border border-gray-700 px-4 py-1.5 rounded-lg transition-colors hover:bg-gray-700",
+                                                        __source: {
+                                                            fileName: "src/App.tsx",
+                                                            lineNumber: 308
+                                                        },
+                                                        __self: undefined,
+                                                        children: "GitHub"
+                                                    })
+                                                })
+                                            ]
+                                        })
+                                    ]
+                                })
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsxs("section", {
+                        className: "snap-start max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12",
+                        __source: {
+                            fileName: "src/App.tsx",
+                            lineNumber: 316
+                        },
+                        __self: undefined,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                className: "text-green-400 font-mono mb-1",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 317
+                                },
+                                __self: undefined,
+                                children: "[4] Contact."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h2", {
+                                className: "text-3xl sm:text-5xl text-gray-500 hover:text-gray-400 transition-colors font-bold",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 318
+                                },
+                                __self: undefined,
+                                children: [
+                                    "email=\"",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                        className: "text-gray-200",
+                                        href: "mailto:me@tica.fun",
+                                        target: "_blank",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 320
+                                        },
+                                        __self: undefined,
+                                        children: "me@tica.fun"
+                                    }),
+                                    "\",",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 324
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "telegram=\"",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                        className: "text-gray-200",
+                                        href: "https://t.me/thoratica",
+                                        target: "_blank",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 326
+                                        },
+                                        __self: undefined,
+                                        children: "@thoratica"
+                                    }),
+                                    "\",",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 330
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "discord=\"",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "text-gray-200",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 331
+                                        },
+                                        __self: undefined,
+                                        children: "tica#4158"
+                                    }),
+                                    "\",",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("br", {
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 332
+                                        },
+                                        __self: undefined
+                                    }),
+                                    "kakaotalk=\"",
+                                    /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                        className: "text-gray-200",
+                                        href: "http://qr.kakao.com/talk/_8KlFWCvsxEHFbZzVVoGNvzxL.c-",
+                                        target: "_blank",
+                                        onClick: ()=>alert('Can only be opened when KakaoTalk is already installed in your device.')
+                                        ,
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 334
+                                        },
+                                        __self: undefined,
+                                        children: "tica27"
+                                    }),
+                                    "\";"
+                                ]
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsx("div", {
+                                className: "text-gray-400 text-lg font-medium mt-4",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 339
+                                },
+                                __self: undefined,
+                                children: "You can contact me in any way. Select one method above."
+                            })
+                        ]
+                    }),
+                    /*#__PURE__*/ _jsxRuntime.jsxs("section", {
+                        className: "snap-end max-w-7xl h-auto flex flex-col items-start justify-center mx-auto px-4 py-8 md:px-12",
+                        __source: {
+                            fileName: "src/App.tsx",
+                            lineNumber: 341
+                        },
+                        __self: undefined,
+                        children: [
+                            /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                className: "text-green-400 font-mono mb-1",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 342
+                                },
+                                __self: undefined,
+                                children: "[5] Footer."
+                            }),
+                            /*#__PURE__*/ _jsxRuntime.jsxs("h3", {
+                                className: "text-lg text-gray-500 font-medium",
+                                __source: {
+                                    fileName: "src/App.tsx",
+                                    lineNumber: 343
+                                },
+                                __self: undefined,
+                                children: [
+                                    /*#__PURE__*/ _jsxRuntime.jsx("span", {
+                                        className: "mr-4",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 344
+                                        },
+                                        __self: undefined,
+                                        children: "2021 tica."
+                                    }),
+                                    /*#__PURE__*/ _jsxRuntime.jsx("a", {
+                                        className: "hover:text-gray-400 transition-colors",
+                                        href: "https://github.com/thoratica/thoratica.github.io/fork",
+                                        target: "_blank",
+                                        __source: {
+                                            fileName: "src/App.tsx",
+                                            lineNumber: 345
+                                        },
+                                        __self: undefined,
+                                        children: "Fork this page on GitHub"
+                                    })
+                                ]
                             })
                         ]
                     })
@@ -23932,7 +24487,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-runtime":"8xIwr","react-svg":"jeaPv","./logo.png":"NWz5G","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react":"6TuXu"}],"jeaPv":[function(require,module,exports) {
+},{"react/jsx-runtime":"8xIwr","react-svg":"jeaPv","./logo.png":"NWz5G","@parcel/transformer-js/src/esmodule-helpers.js":"JacNc","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"5V79J","react":"6TuXu","react-custom-scrollbars-2":"8embF"}],"jeaPv":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "ReactSVG", ()=>ReactSVG1
@@ -25875,6 +26430,1490 @@ function registerExportsForReactRefresh(module) {
     }
 }
 
-},{"react-refresh/runtime":"fNmB3"}],"8tVTf":[function() {},{}],"1dfYM":[function() {},{}]},["2rAXy","czkC5","iqQLF"], "iqQLF", "parcelRequire3406")
+},{"react-refresh/runtime":"fNmB3"}],"8embF":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.Scrollbars = undefined;
+var _Scrollbars = require('./Scrollbars');
+var _Scrollbars2 = _interopRequireDefault(_Scrollbars);
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+exports["default"] = _Scrollbars2["default"];
+exports.Scrollbars = _Scrollbars2["default"];
+
+},{"./Scrollbars":"5jP9m"}],"5jP9m":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _extends = Object.assign || function(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = arguments[i];
+        for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+    }
+    return target;
+};
+var _createClass = function() {
+    function defineProperties(target, props) {
+        for(var i = 0; i < props.length; i++){
+            var descriptor = props[i];
+            descriptor.enumerable = descriptor.enumerable || false;
+            descriptor.configurable = true;
+            if ("value" in descriptor) descriptor.writable = true;
+            Object.defineProperty(target, descriptor.key, descriptor);
+        }
+    }
+    return function(Constructor, protoProps, staticProps) {
+        if (protoProps) defineProperties(Constructor.prototype, protoProps);
+        if (staticProps) defineProperties(Constructor, staticProps);
+        return Constructor;
+    };
+}();
+var _raf2 = require('raf');
+var _raf3 = _interopRequireDefault(_raf2);
+var _domCss = require('dom-css');
+var _domCss2 = _interopRequireDefault(_domCss);
+var _react = require('react');
+var _propTypes = require('prop-types');
+var _propTypes2 = _interopRequireDefault(_propTypes);
+var _isString = require('../utils/isString');
+var _isString2 = _interopRequireDefault(_isString);
+var _getScrollbarWidth = require('../utils/getScrollbarWidth');
+var _getScrollbarWidth2 = _interopRequireDefault(_getScrollbarWidth);
+var _returnFalse = require('../utils/returnFalse');
+var _returnFalse2 = _interopRequireDefault(_returnFalse);
+var _getInnerWidth = require('../utils/getInnerWidth');
+var _getInnerWidth2 = _interopRequireDefault(_getInnerWidth);
+var _getInnerHeight = require('../utils/getInnerHeight');
+var _getInnerHeight2 = _interopRequireDefault(_getInnerHeight);
+var _styles = require('./styles');
+var _defaultRenderElements = require('./defaultRenderElements');
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+function _objectWithoutProperties(obj, keys) {
+    var target = {
+    };
+    for(var i in obj){
+        if (keys.indexOf(i) >= 0) continue;
+        if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+        target[i] = obj[i];
+    }
+    return target;
+}
+function _classCallCheck(instance, Constructor) {
+    if (!(instance instanceof Constructor)) throw new TypeError("Cannot call a class as a function");
+}
+function _possibleConstructorReturn(self, call) {
+    if (!self) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+    return call && (typeof call === "object" || typeof call === "function") ? call : self;
+}
+function _inherits(subClass, superClass) {
+    if (typeof superClass !== "function" && superClass !== null) throw new TypeError("Super expression must either be null or a function, not " + typeof superClass);
+    subClass.prototype = Object.create(superClass && superClass.prototype, {
+        constructor: {
+            value: subClass,
+            enumerable: false,
+            writable: true,
+            configurable: true
+        }
+    });
+    if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass;
+}
+var Scrollbars1 = function(_Component) {
+    _inherits(Scrollbars2, _Component);
+    function Scrollbars2(props) {
+        var _ref;
+        _classCallCheck(this, Scrollbars2);
+        for(var _len = arguments.length, rest = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++)rest[_key - 1] = arguments[_key];
+        var _this = _possibleConstructorReturn(this, (_ref = Scrollbars2.__proto__ || Object.getPrototypeOf(Scrollbars2)).call.apply(_ref, [
+            this,
+            props
+        ].concat(rest)));
+        _this.getScrollLeft = _this.getScrollLeft.bind(_this);
+        _this.getScrollTop = _this.getScrollTop.bind(_this);
+        _this.getScrollWidth = _this.getScrollWidth.bind(_this);
+        _this.getScrollHeight = _this.getScrollHeight.bind(_this);
+        _this.getClientWidth = _this.getClientWidth.bind(_this);
+        _this.getClientHeight = _this.getClientHeight.bind(_this);
+        _this.getValues = _this.getValues.bind(_this);
+        _this.getThumbHorizontalWidth = _this.getThumbHorizontalWidth.bind(_this);
+        _this.getThumbVerticalHeight = _this.getThumbVerticalHeight.bind(_this);
+        _this.getScrollLeftForOffset = _this.getScrollLeftForOffset.bind(_this);
+        _this.getScrollTopForOffset = _this.getScrollTopForOffset.bind(_this);
+        _this.scrollLeft = _this.scrollLeft.bind(_this);
+        _this.scrollTop = _this.scrollTop.bind(_this);
+        _this.scrollToLeft = _this.scrollToLeft.bind(_this);
+        _this.scrollToTop = _this.scrollToTop.bind(_this);
+        _this.scrollToRight = _this.scrollToRight.bind(_this);
+        _this.scrollToBottom = _this.scrollToBottom.bind(_this);
+        _this.handleTrackMouseEnter = _this.handleTrackMouseEnter.bind(_this);
+        _this.handleTrackMouseLeave = _this.handleTrackMouseLeave.bind(_this);
+        _this.handleHorizontalTrackMouseDown = _this.handleHorizontalTrackMouseDown.bind(_this);
+        _this.handleVerticalTrackMouseDown = _this.handleVerticalTrackMouseDown.bind(_this);
+        _this.handleHorizontalThumbMouseDown = _this.handleHorizontalThumbMouseDown.bind(_this);
+        _this.handleVerticalThumbMouseDown = _this.handleVerticalThumbMouseDown.bind(_this);
+        _this.handleWindowResize = _this.handleWindowResize.bind(_this);
+        _this.handleScroll = _this.handleScroll.bind(_this);
+        _this.handleDrag = _this.handleDrag.bind(_this);
+        _this.handleDragEnd = _this.handleDragEnd.bind(_this);
+        _this.state = {
+            didMountUniversal: false
+        };
+        return _this;
+    }
+    _createClass(Scrollbars2, [
+        {
+            key: 'componentDidMount',
+            value: function componentDidMount() {
+                this.addListeners();
+                this.update();
+                this.componentDidMountUniversal();
+            }
+        },
+        {
+            key: 'componentDidMountUniversal',
+            value: function componentDidMountUniversal() {
+                // eslint-disable-line react/sort-comp
+                var universal = this.props.universal;
+                if (!universal) return;
+                this.setState({
+                    didMountUniversal: true
+                });
+            }
+        },
+        {
+            key: 'componentDidUpdate',
+            value: function componentDidUpdate() {
+                this.update();
+            }
+        },
+        {
+            key: 'componentWillUnmount',
+            value: function componentWillUnmount() {
+                this.removeListeners();
+                _raf2.cancel(this.requestFrame);
+                clearTimeout(this.hideTracksTimeout);
+                clearInterval(this.detectScrollingInterval);
+            }
+        },
+        {
+            key: 'getScrollLeft',
+            value: function getScrollLeft() {
+                if (!this.view) return 0;
+                return this.view.scrollLeft;
+            }
+        },
+        {
+            key: 'getScrollTop',
+            value: function getScrollTop() {
+                if (!this.view) return 0;
+                return this.view.scrollTop;
+            }
+        },
+        {
+            key: 'getScrollWidth',
+            value: function getScrollWidth() {
+                if (!this.view) return 0;
+                return this.view.scrollWidth;
+            }
+        },
+        {
+            key: 'getScrollHeight',
+            value: function getScrollHeight() {
+                if (!this.view) return 0;
+                return this.view.scrollHeight;
+            }
+        },
+        {
+            key: 'getClientWidth',
+            value: function getClientWidth() {
+                if (!this.view) return 0;
+                return this.view.clientWidth;
+            }
+        },
+        {
+            key: 'getClientHeight',
+            value: function getClientHeight() {
+                if (!this.view) return 0;
+                return this.view.clientHeight;
+            }
+        },
+        {
+            key: 'getValues',
+            value: function getValues() {
+                var _ref2 = this.view || {
+                }, _ref2$scrollLeft = _ref2.scrollLeft, scrollLeft = _ref2$scrollLeft === undefined ? 0 : _ref2$scrollLeft, _ref2$scrollTop = _ref2.scrollTop, scrollTop = _ref2$scrollTop === undefined ? 0 : _ref2$scrollTop, _ref2$scrollWidth = _ref2.scrollWidth, scrollWidth = _ref2$scrollWidth === undefined ? 0 : _ref2$scrollWidth, _ref2$scrollHeight = _ref2.scrollHeight, scrollHeight = _ref2$scrollHeight === undefined ? 0 : _ref2$scrollHeight, _ref2$clientWidth = _ref2.clientWidth, clientWidth = _ref2$clientWidth === undefined ? 0 : _ref2$clientWidth, _ref2$clientHeight = _ref2.clientHeight, clientHeight = _ref2$clientHeight === undefined ? 0 : _ref2$clientHeight;
+                return {
+                    left: scrollLeft / (scrollWidth - clientWidth) || 0,
+                    top: scrollTop / (scrollHeight - clientHeight) || 0,
+                    scrollLeft: scrollLeft,
+                    scrollTop: scrollTop,
+                    scrollWidth: scrollWidth,
+                    scrollHeight: scrollHeight,
+                    clientWidth: clientWidth,
+                    clientHeight: clientHeight
+                };
+            }
+        },
+        {
+            key: 'getThumbHorizontalWidth',
+            value: function getThumbHorizontalWidth() {
+                var _props = this.props, thumbSize = _props.thumbSize, thumbMinSize = _props.thumbMinSize;
+                var _view = this.view, scrollWidth = _view.scrollWidth, clientWidth = _view.clientWidth;
+                var trackWidth = _getInnerWidth2["default"](this.trackHorizontal);
+                var width = Math.ceil(clientWidth / scrollWidth * trackWidth);
+                if (trackWidth <= width) return 0;
+                if (thumbSize) return thumbSize;
+                return Math.max(width, thumbMinSize);
+            }
+        },
+        {
+            key: 'getThumbVerticalHeight',
+            value: function getThumbVerticalHeight() {
+                var _props2 = this.props, thumbSize = _props2.thumbSize, thumbMinSize = _props2.thumbMinSize;
+                var _view2 = this.view, scrollHeight = _view2.scrollHeight, clientHeight = _view2.clientHeight;
+                var trackHeight = _getInnerHeight2["default"](this.trackVertical);
+                var height = Math.ceil(clientHeight / scrollHeight * trackHeight);
+                if (trackHeight <= height) return 0;
+                if (thumbSize) return thumbSize;
+                return Math.max(height, thumbMinSize);
+            }
+        },
+        {
+            key: 'getScrollLeftForOffset',
+            value: function getScrollLeftForOffset(offset) {
+                var _view3 = this.view, scrollWidth = _view3.scrollWidth, clientWidth = _view3.clientWidth;
+                var trackWidth = _getInnerWidth2["default"](this.trackHorizontal);
+                var thumbWidth = this.getThumbHorizontalWidth();
+                return offset / (trackWidth - thumbWidth) * (scrollWidth - clientWidth);
+            }
+        },
+        {
+            key: 'getScrollTopForOffset',
+            value: function getScrollTopForOffset(offset) {
+                var _view4 = this.view, scrollHeight = _view4.scrollHeight, clientHeight = _view4.clientHeight;
+                var trackHeight = _getInnerHeight2["default"](this.trackVertical);
+                var thumbHeight = this.getThumbVerticalHeight();
+                return offset / (trackHeight - thumbHeight) * (scrollHeight - clientHeight);
+            }
+        },
+        {
+            key: 'scrollLeft',
+            value: function scrollLeft() {
+                var left = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+                if (!this.view) return;
+                this.view.scrollLeft = left;
+            }
+        },
+        {
+            key: 'scrollTop',
+            value: function scrollTop() {
+                var top = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 0;
+                if (!this.view) return;
+                this.view.scrollTop = top;
+            }
+        },
+        {
+            key: 'scrollToLeft',
+            value: function scrollToLeft() {
+                if (!this.view) return;
+                this.view.scrollLeft = 0;
+            }
+        },
+        {
+            key: 'scrollToTop',
+            value: function scrollToTop() {
+                if (!this.view) return;
+                this.view.scrollTop = 0;
+            }
+        },
+        {
+            key: 'scrollToRight',
+            value: function scrollToRight() {
+                if (!this.view) return;
+                this.view.scrollLeft = this.view.scrollWidth;
+            }
+        },
+        {
+            key: 'scrollToBottom',
+            value: function scrollToBottom() {
+                if (!this.view) return;
+                this.view.scrollTop = this.view.scrollHeight;
+            }
+        },
+        {
+            key: 'addListeners',
+            value: function addListeners() {
+                /* istanbul ignore if */ if (typeof document === 'undefined' || !this.view) return;
+                var view = this.view, trackHorizontal = this.trackHorizontal, trackVertical = this.trackVertical, thumbHorizontal = this.thumbHorizontal, thumbVertical = this.thumbVertical;
+                view.addEventListener('scroll', this.handleScroll);
+                if (!_getScrollbarWidth2["default"]()) return;
+                trackHorizontal.addEventListener('mouseenter', this.handleTrackMouseEnter);
+                trackHorizontal.addEventListener('mouseleave', this.handleTrackMouseLeave);
+                trackHorizontal.addEventListener('mousedown', this.handleHorizontalTrackMouseDown);
+                trackVertical.addEventListener('mouseenter', this.handleTrackMouseEnter);
+                trackVertical.addEventListener('mouseleave', this.handleTrackMouseLeave);
+                trackVertical.addEventListener('mousedown', this.handleVerticalTrackMouseDown);
+                thumbHorizontal.addEventListener('mousedown', this.handleHorizontalThumbMouseDown);
+                thumbVertical.addEventListener('mousedown', this.handleVerticalThumbMouseDown);
+                window.addEventListener('resize', this.handleWindowResize);
+            }
+        },
+        {
+            key: 'removeListeners',
+            value: function removeListeners() {
+                /* istanbul ignore if */ if (typeof document === 'undefined' || !this.view) return;
+                var view = this.view, trackHorizontal = this.trackHorizontal, trackVertical = this.trackVertical, thumbHorizontal = this.thumbHorizontal, thumbVertical = this.thumbVertical;
+                view.removeEventListener('scroll', this.handleScroll);
+                if (!_getScrollbarWidth2["default"]()) return;
+                trackHorizontal.removeEventListener('mouseenter', this.handleTrackMouseEnter);
+                trackHorizontal.removeEventListener('mouseleave', this.handleTrackMouseLeave);
+                trackHorizontal.removeEventListener('mousedown', this.handleHorizontalTrackMouseDown);
+                trackVertical.removeEventListener('mouseenter', this.handleTrackMouseEnter);
+                trackVertical.removeEventListener('mouseleave', this.handleTrackMouseLeave);
+                trackVertical.removeEventListener('mousedown', this.handleVerticalTrackMouseDown);
+                thumbHorizontal.removeEventListener('mousedown', this.handleHorizontalThumbMouseDown);
+                thumbVertical.removeEventListener('mousedown', this.handleVerticalThumbMouseDown);
+                window.removeEventListener('resize', this.handleWindowResize);
+                // Possibly setup by `handleDragStart`
+                this.teardownDragging();
+            }
+        },
+        {
+            key: 'handleScroll',
+            value: function handleScroll(event) {
+                var _this2 = this;
+                var _props3 = this.props, onScroll = _props3.onScroll, onScrollFrame = _props3.onScrollFrame;
+                if (onScroll) onScroll(event);
+                this.update(function(values) {
+                    var scrollLeft = values.scrollLeft, scrollTop = values.scrollTop;
+                    _this2.viewScrollLeft = scrollLeft;
+                    _this2.viewScrollTop = scrollTop;
+                    if (onScrollFrame) onScrollFrame(values);
+                });
+                this.detectScrolling();
+            }
+        },
+        {
+            key: 'handleScrollStart',
+            value: function handleScrollStart() {
+                var onScrollStart = this.props.onScrollStart;
+                if (onScrollStart) onScrollStart();
+                this.handleScrollStartAutoHide();
+            }
+        },
+        {
+            key: 'handleScrollStartAutoHide',
+            value: function handleScrollStartAutoHide() {
+                var autoHide = this.props.autoHide;
+                if (!autoHide) return;
+                this.showTracks();
+            }
+        },
+        {
+            key: 'handleScrollStop',
+            value: function handleScrollStop() {
+                var onScrollStop = this.props.onScrollStop;
+                if (onScrollStop) onScrollStop();
+                this.handleScrollStopAutoHide();
+            }
+        },
+        {
+            key: 'handleScrollStopAutoHide',
+            value: function handleScrollStopAutoHide() {
+                var autoHide = this.props.autoHide;
+                if (!autoHide) return;
+                this.hideTracks();
+            }
+        },
+        {
+            key: 'handleWindowResize',
+            value: function handleWindowResize() {
+                _getScrollbarWidth2["default"](false);
+                this.forceUpdate();
+            }
+        },
+        {
+            key: 'handleHorizontalTrackMouseDown',
+            value: function handleHorizontalTrackMouseDown(event) {
+                event.preventDefault();
+                var target = event.target, clientX = event.clientX;
+                var _target$getBoundingCl = target.getBoundingClientRect(), targetLeft = _target$getBoundingCl.left;
+                var thumbWidth = this.getThumbHorizontalWidth();
+                var offset = Math.abs(targetLeft - clientX) - thumbWidth / 2;
+                this.view.scrollLeft = this.getScrollLeftForOffset(offset);
+            }
+        },
+        {
+            key: 'handleVerticalTrackMouseDown',
+            value: function handleVerticalTrackMouseDown(event) {
+                event.preventDefault();
+                var target = event.target, clientY = event.clientY;
+                var _target$getBoundingCl2 = target.getBoundingClientRect(), targetTop = _target$getBoundingCl2.top;
+                var thumbHeight = this.getThumbVerticalHeight();
+                var offset = Math.abs(targetTop - clientY) - thumbHeight / 2;
+                this.view.scrollTop = this.getScrollTopForOffset(offset);
+            }
+        },
+        {
+            key: 'handleHorizontalThumbMouseDown',
+            value: function handleHorizontalThumbMouseDown(event) {
+                event.preventDefault();
+                this.handleDragStart(event);
+                var target = event.target, clientX = event.clientX;
+                var offsetWidth = target.offsetWidth;
+                var _target$getBoundingCl3 = target.getBoundingClientRect(), left = _target$getBoundingCl3.left;
+                this.prevPageX = offsetWidth - (clientX - left);
+            }
+        },
+        {
+            key: 'handleVerticalThumbMouseDown',
+            value: function handleVerticalThumbMouseDown(event) {
+                event.preventDefault();
+                this.handleDragStart(event);
+                var target = event.target, clientY = event.clientY;
+                var offsetHeight = target.offsetHeight;
+                var _target$getBoundingCl4 = target.getBoundingClientRect(), top = _target$getBoundingCl4.top;
+                this.prevPageY = offsetHeight - (clientY - top);
+            }
+        },
+        {
+            key: 'setupDragging',
+            value: function setupDragging() {
+                _domCss2["default"](document.body, _styles.disableSelectStyle);
+                document.addEventListener('mousemove', this.handleDrag);
+                document.addEventListener('mouseup', this.handleDragEnd);
+                document.onselectstart = _returnFalse2["default"];
+            }
+        },
+        {
+            key: 'teardownDragging',
+            value: function teardownDragging() {
+                _domCss2["default"](document.body, _styles.disableSelectStyleReset);
+                document.removeEventListener('mousemove', this.handleDrag);
+                document.removeEventListener('mouseup', this.handleDragEnd);
+                document.onselectstart = undefined;
+            }
+        },
+        {
+            key: 'handleDragStart',
+            value: function handleDragStart(event) {
+                this.dragging = true;
+                event.stopImmediatePropagation();
+                this.setupDragging();
+            }
+        },
+        {
+            key: 'handleDrag',
+            value: function handleDrag(event) {
+                if (this.prevPageX) {
+                    var clientX = event.clientX;
+                    var _trackHorizontal$getB = this.trackHorizontal.getBoundingClientRect(), trackLeft = _trackHorizontal$getB.left;
+                    var thumbWidth = this.getThumbHorizontalWidth();
+                    var clickPosition = thumbWidth - this.prevPageX;
+                    var offset = -trackLeft + clientX - clickPosition;
+                    this.view.scrollLeft = this.getScrollLeftForOffset(offset);
+                }
+                if (this.prevPageY) {
+                    var clientY = event.clientY;
+                    var _trackVertical$getBou = this.trackVertical.getBoundingClientRect(), trackTop = _trackVertical$getBou.top;
+                    var thumbHeight = this.getThumbVerticalHeight();
+                    var _clickPosition = thumbHeight - this.prevPageY;
+                    var _offset = -trackTop + clientY - _clickPosition;
+                    this.view.scrollTop = this.getScrollTopForOffset(_offset);
+                }
+                return false;
+            }
+        },
+        {
+            key: 'handleDragEnd',
+            value: function handleDragEnd() {
+                this.dragging = false;
+                this.prevPageX = this.prevPageY = 0;
+                this.teardownDragging();
+                this.handleDragEndAutoHide();
+            }
+        },
+        {
+            key: 'handleDragEndAutoHide',
+            value: function handleDragEndAutoHide() {
+                var autoHide = this.props.autoHide;
+                if (!autoHide) return;
+                this.hideTracks();
+            }
+        },
+        {
+            key: 'handleTrackMouseEnter',
+            value: function handleTrackMouseEnter() {
+                this.trackMouseOver = true;
+                this.handleTrackMouseEnterAutoHide();
+            }
+        },
+        {
+            key: 'handleTrackMouseEnterAutoHide',
+            value: function handleTrackMouseEnterAutoHide() {
+                var autoHide = this.props.autoHide;
+                if (!autoHide) return;
+                this.showTracks();
+            }
+        },
+        {
+            key: 'handleTrackMouseLeave',
+            value: function handleTrackMouseLeave() {
+                this.trackMouseOver = false;
+                this.handleTrackMouseLeaveAutoHide();
+            }
+        },
+        {
+            key: 'handleTrackMouseLeaveAutoHide',
+            value: function handleTrackMouseLeaveAutoHide() {
+                var autoHide = this.props.autoHide;
+                if (!autoHide) return;
+                this.hideTracks();
+            }
+        },
+        {
+            key: 'showTracks',
+            value: function showTracks() {
+                clearTimeout(this.hideTracksTimeout);
+                _domCss2["default"](this.trackHorizontal, {
+                    opacity: 1
+                });
+                _domCss2["default"](this.trackVertical, {
+                    opacity: 1
+                });
+            }
+        },
+        {
+            key: 'hideTracks',
+            value: function hideTracks() {
+                var _this3 = this;
+                if (this.dragging) return;
+                if (this.scrolling) return;
+                if (this.trackMouseOver) return;
+                var autoHideTimeout = this.props.autoHideTimeout;
+                clearTimeout(this.hideTracksTimeout);
+                this.hideTracksTimeout = setTimeout(function() {
+                    _domCss2["default"](_this3.trackHorizontal, {
+                        opacity: 0
+                    });
+                    _domCss2["default"](_this3.trackVertical, {
+                        opacity: 0
+                    });
+                }, autoHideTimeout);
+            }
+        },
+        {
+            key: 'detectScrolling',
+            value: function detectScrolling() {
+                var _this4 = this;
+                if (this.scrolling) return;
+                this.scrolling = true;
+                this.handleScrollStart();
+                this.detectScrollingInterval = setInterval(function() {
+                    if (_this4.lastViewScrollLeft === _this4.viewScrollLeft && _this4.lastViewScrollTop === _this4.viewScrollTop) {
+                        clearInterval(_this4.detectScrollingInterval);
+                        _this4.scrolling = false;
+                        _this4.handleScrollStop();
+                    }
+                    _this4.lastViewScrollLeft = _this4.viewScrollLeft;
+                    _this4.lastViewScrollTop = _this4.viewScrollTop;
+                }, 100);
+            }
+        },
+        {
+            key: 'raf',
+            value: function raf(callback) {
+                var _this5 = this;
+                if (this.requestFrame) _raf3["default"].cancel(this.requestFrame);
+                this.requestFrame = _raf3["default"](function() {
+                    _this5.requestFrame = undefined;
+                    callback();
+                });
+            }
+        },
+        {
+            key: 'update',
+            value: function update(callback) {
+                var _this6 = this;
+                this.raf(function() {
+                    return _this6._update(callback);
+                });
+            }
+        },
+        {
+            key: '_update',
+            value: function _update(callback) {
+                var _props4 = this.props, onUpdate = _props4.onUpdate, hideTracksWhenNotNeeded = _props4.hideTracksWhenNotNeeded;
+                var values = this.getValues();
+                if (_getScrollbarWidth2["default"]()) {
+                    var scrollLeft = values.scrollLeft, clientWidth = values.clientWidth, scrollWidth = values.scrollWidth;
+                    var trackHorizontalWidth = _getInnerWidth2["default"](this.trackHorizontal);
+                    var thumbHorizontalWidth = this.getThumbHorizontalWidth();
+                    var thumbHorizontalX = scrollLeft / (scrollWidth - clientWidth) * (trackHorizontalWidth - thumbHorizontalWidth);
+                    var thumbHorizontalStyle = {
+                        width: thumbHorizontalWidth,
+                        transform: 'translateX(' + thumbHorizontalX + 'px)'
+                    };
+                    var scrollTop = values.scrollTop, clientHeight = values.clientHeight, scrollHeight = values.scrollHeight;
+                    var trackVerticalHeight = _getInnerHeight2["default"](this.trackVertical);
+                    var thumbVerticalHeight = this.getThumbVerticalHeight();
+                    var thumbVerticalY = scrollTop / (scrollHeight - clientHeight) * (trackVerticalHeight - thumbVerticalHeight);
+                    var thumbVerticalStyle = {
+                        height: thumbVerticalHeight,
+                        transform: 'translateY(' + thumbVerticalY + 'px)'
+                    };
+                    if (hideTracksWhenNotNeeded) {
+                        var trackHorizontalStyle = {
+                            visibility: scrollWidth > clientWidth ? 'visible' : 'hidden'
+                        };
+                        var trackVerticalStyle = {
+                            visibility: scrollHeight > clientHeight ? 'visible' : 'hidden'
+                        };
+                        _domCss2["default"](this.trackHorizontal, trackHorizontalStyle);
+                        _domCss2["default"](this.trackVertical, trackVerticalStyle);
+                    }
+                    _domCss2["default"](this.thumbHorizontal, thumbHorizontalStyle);
+                    _domCss2["default"](this.thumbVertical, thumbVerticalStyle);
+                }
+                if (onUpdate) onUpdate(values);
+                if (typeof callback !== 'function') return;
+                callback(values);
+            }
+        },
+        {
+            key: 'render',
+            value: function render() {
+                var _this7 = this;
+                var scrollbarWidth = _getScrollbarWidth2["default"]();
+                /* eslint-disable no-unused-vars */ var _props5 = this.props, onScroll = _props5.onScroll, onScrollFrame = _props5.onScrollFrame, onScrollStart = _props5.onScrollStart, onScrollStop = _props5.onScrollStop, onUpdate = _props5.onUpdate, renderView = _props5.renderView, renderTrackHorizontal = _props5.renderTrackHorizontal, renderTrackVertical = _props5.renderTrackVertical, renderThumbHorizontal = _props5.renderThumbHorizontal, renderThumbVertical = _props5.renderThumbVertical, tagName = _props5.tagName, hideTracksWhenNotNeeded = _props5.hideTracksWhenNotNeeded, autoHide = _props5.autoHide, autoHideTimeout = _props5.autoHideTimeout, autoHideDuration = _props5.autoHideDuration, thumbSize = _props5.thumbSize, thumbMinSize = _props5.thumbMinSize, universal = _props5.universal, autoHeight = _props5.autoHeight, autoHeightMin = _props5.autoHeightMin, autoHeightMax = _props5.autoHeightMax, style = _props5.style, children = _props5.children, props = _objectWithoutProperties(_props5, [
+                    'onScroll',
+                    'onScrollFrame',
+                    'onScrollStart',
+                    'onScrollStop',
+                    'onUpdate',
+                    'renderView',
+                    'renderTrackHorizontal',
+                    'renderTrackVertical',
+                    'renderThumbHorizontal',
+                    'renderThumbVertical',
+                    'tagName',
+                    'hideTracksWhenNotNeeded',
+                    'autoHide',
+                    'autoHideTimeout',
+                    'autoHideDuration',
+                    'thumbSize',
+                    'thumbMinSize',
+                    'universal',
+                    'autoHeight',
+                    'autoHeightMin',
+                    'autoHeightMax',
+                    'style',
+                    'children'
+                ]);
+                /* eslint-enable no-unused-vars */ var didMountUniversal = this.state.didMountUniversal;
+                var containerStyle = _extends({
+                }, _styles.containerStyleDefault, autoHeight && _extends({
+                }, _styles.containerStyleAutoHeight, {
+                    minHeight: autoHeightMin,
+                    maxHeight: autoHeightMax
+                }), style);
+                var viewStyle = _extends({
+                }, _styles.viewStyleDefault, {
+                    // Hide scrollbars by setting a negative margin
+                    marginRight: scrollbarWidth ? -scrollbarWidth : 0,
+                    marginBottom: scrollbarWidth ? -scrollbarWidth : 0
+                }, autoHeight && _extends({
+                }, _styles.viewStyleAutoHeight, {
+                    // Add scrollbarWidth to autoHeight in order to compensate negative margins
+                    minHeight: _isString2["default"](autoHeightMin) ? 'calc(' + autoHeightMin + ' + ' + scrollbarWidth + 'px)' : autoHeightMin + scrollbarWidth,
+                    maxHeight: _isString2["default"](autoHeightMax) ? 'calc(' + autoHeightMax + ' + ' + scrollbarWidth + 'px)' : autoHeightMax + scrollbarWidth
+                }), autoHeight && universal && !didMountUniversal && {
+                    minHeight: autoHeightMin,
+                    maxHeight: autoHeightMax
+                }, universal && !didMountUniversal && _styles.viewStyleUniversalInitial);
+                var trackAutoHeightStyle = {
+                    transition: 'opacity ' + autoHideDuration + 'ms',
+                    opacity: 0
+                };
+                var trackHorizontalStyle = _extends({
+                }, _styles.trackHorizontalStyleDefault, autoHide && trackAutoHeightStyle, (!scrollbarWidth || universal && !didMountUniversal) && {
+                    display: 'none'
+                });
+                var trackVerticalStyle = _extends({
+                }, _styles.trackVerticalStyleDefault, autoHide && trackAutoHeightStyle, (!scrollbarWidth || universal && !didMountUniversal) && {
+                    display: 'none'
+                });
+                return _react.createElement(tagName, _extends({
+                }, props, {
+                    style: containerStyle,
+                    ref: function ref(_ref3) {
+                        _this7.container = _ref3;
+                    }
+                }), [
+                    _react.cloneElement(renderView({
+                        style: viewStyle
+                    }), {
+                        key: 'view',
+                        ref: function ref(_ref4) {
+                            _this7.view = _ref4;
+                        }
+                    }, children),
+                    _react.cloneElement(renderTrackHorizontal({
+                        style: trackHorizontalStyle
+                    }), {
+                        key: 'trackHorizontal',
+                        ref: function ref(_ref5) {
+                            _this7.trackHorizontal = _ref5;
+                        }
+                    }, _react.cloneElement(renderThumbHorizontal({
+                        style: _styles.thumbHorizontalStyleDefault
+                    }), {
+                        ref: function ref(_ref6) {
+                            _this7.thumbHorizontal = _ref6;
+                        }
+                    })),
+                    _react.cloneElement(renderTrackVertical({
+                        style: trackVerticalStyle
+                    }), {
+                        key: 'trackVertical',
+                        ref: function ref(_ref7) {
+                            _this7.trackVertical = _ref7;
+                        }
+                    }, _react.cloneElement(renderThumbVertical({
+                        style: _styles.thumbVerticalStyleDefault
+                    }), {
+                        ref: function ref(_ref8) {
+                            _this7.thumbVertical = _ref8;
+                        }
+                    }))
+                ]);
+            }
+        }
+    ]);
+    return Scrollbars2;
+}(_react.Component);
+exports["default"] = Scrollbars1;
+Scrollbars1.propTypes = {
+    onScroll: _propTypes2["default"].func,
+    onScrollFrame: _propTypes2["default"].func,
+    onScrollStart: _propTypes2["default"].func,
+    onScrollStop: _propTypes2["default"].func,
+    onUpdate: _propTypes2["default"].func,
+    renderView: _propTypes2["default"].func,
+    renderTrackHorizontal: _propTypes2["default"].func,
+    renderTrackVertical: _propTypes2["default"].func,
+    renderThumbHorizontal: _propTypes2["default"].func,
+    renderThumbVertical: _propTypes2["default"].func,
+    tagName: _propTypes2["default"].string,
+    thumbSize: _propTypes2["default"].number,
+    thumbMinSize: _propTypes2["default"].number,
+    hideTracksWhenNotNeeded: _propTypes2["default"].bool,
+    autoHide: _propTypes2["default"].bool,
+    autoHideTimeout: _propTypes2["default"].number,
+    autoHideDuration: _propTypes2["default"].number,
+    autoHeight: _propTypes2["default"].bool,
+    autoHeightMin: _propTypes2["default"].oneOfType([
+        _propTypes2["default"].number,
+        _propTypes2["default"].string
+    ]),
+    autoHeightMax: _propTypes2["default"].oneOfType([
+        _propTypes2["default"].number,
+        _propTypes2["default"].string
+    ]),
+    universal: _propTypes2["default"].bool,
+    style: _propTypes2["default"].object,
+    children: _propTypes2["default"].node
+};
+Scrollbars1.defaultProps = {
+    renderView: _defaultRenderElements.renderViewDefault,
+    renderTrackHorizontal: _defaultRenderElements.renderTrackHorizontalDefault,
+    renderTrackVertical: _defaultRenderElements.renderTrackVerticalDefault,
+    renderThumbHorizontal: _defaultRenderElements.renderThumbHorizontalDefault,
+    renderThumbVertical: _defaultRenderElements.renderThumbVerticalDefault,
+    tagName: 'div',
+    thumbMinSize: 30,
+    hideTracksWhenNotNeeded: false,
+    autoHide: false,
+    autoHideTimeout: 1000,
+    autoHideDuration: 200,
+    autoHeight: false,
+    autoHeightMin: 0,
+    autoHeightMax: 200,
+    universal: false
+};
+
+},{"raf":"5rOiL","dom-css":"7hFMd","react":"6TuXu","prop-types":"1tgq3","../utils/isString":"LejF0","../utils/getScrollbarWidth":"lc4h8","../utils/returnFalse":"9R1WU","../utils/getInnerWidth":"29Pyr","../utils/getInnerHeight":"2BAaC","./styles":"i2gC6","./defaultRenderElements":"f2AO4"}],"5rOiL":[function(require,module,exports) {
+var global = arguments[3];
+var now = require('performance-now'), root = typeof window === 'undefined' ? global : window, vendors = [
+    'moz',
+    'webkit'
+], suffix = 'AnimationFrame', raf = root['request' + suffix], caf = root['cancel' + suffix] || root['cancelRequest' + suffix];
+for(var i = 0; !raf && i < vendors.length; i++){
+    raf = root[vendors[i] + 'Request' + suffix];
+    caf = root[vendors[i] + 'Cancel' + suffix] || root[vendors[i] + 'CancelRequest' + suffix];
+}
+// Some versions of FF have rAF but not cAF
+if (!raf || !caf) {
+    var last = 0, id = 0, queue = [], frameDuration = 1000 / 60;
+    raf = function(callback) {
+        if (queue.length === 0) {
+            var _now = now(), next = Math.max(0, frameDuration - (_now - last));
+            last = next + _now;
+            setTimeout(function() {
+                var cp = queue.slice(0);
+                // Clear queue here to prevent
+                // callbacks from appending listeners
+                // to the current frame's queue
+                queue.length = 0;
+                for(var i1 = 0; i1 < cp.length; i1++){
+                    if (!cp[i1].cancelled) try {
+                        cp[i1].callback(last);
+                    } catch (e) {
+                        setTimeout(function() {
+                            throw e;
+                        }, 0);
+                    }
+                }
+            }, Math.round(next));
+        }
+        queue.push({
+            handle: ++id,
+            callback: callback,
+            cancelled: false
+        });
+        return id;
+    };
+    caf = function(handle) {
+        for(var i1 = 0; i1 < queue.length; i1++)if (queue[i1].handle === handle) queue[i1].cancelled = true;
+    };
+}
+module.exports = function(fn) {
+    // Wrap in a new function to prevent
+    // `cancel` potentially being assigned
+    // to the native rAF function
+    return raf.call(root, fn);
+};
+module.exports.cancel = function() {
+    caf.apply(root, arguments);
+};
+module.exports.polyfill = function(object) {
+    if (!object) object = root;
+    object.requestAnimationFrame = raf;
+    object.cancelAnimationFrame = caf;
+};
+
+},{"performance-now":"k5VHA"}],"k5VHA":[function(require,module,exports) {
+var process = require("process");
+// Generated by CoffeeScript 1.12.2
+(function() {
+    var getNanoSeconds, hrtime, loadTime, moduleLoadTime, nodeLoadTime, upTime;
+    if (typeof performance !== "undefined" && performance !== null && performance.now) module.exports = function() {
+        return performance.now();
+    };
+    else if (typeof process !== "undefined" && process !== null && process.hrtime) {
+        module.exports = function() {
+            return (getNanoSeconds() - nodeLoadTime) / 1000000;
+        };
+        hrtime = process.hrtime;
+        getNanoSeconds = function() {
+            var hr;
+            hr = hrtime();
+            return hr[0] * 1000000000 + hr[1];
+        };
+        moduleLoadTime = getNanoSeconds();
+        upTime = process.uptime() * 1000000000;
+        nodeLoadTime = moduleLoadTime - upTime;
+    } else if (Date.now) {
+        module.exports = function() {
+            return Date.now() - loadTime;
+        };
+        loadTime = Date.now();
+    } else {
+        module.exports = function() {
+            return new Date().getTime() - loadTime;
+        };
+        loadTime = new Date().getTime();
+    }
+}).call(this);
+
+},{"process":"6Upk8"}],"6Upk8":[function(require,module,exports) {
+// shim for using process in browser
+var process = module.exports = {
+};
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+var cachedSetTimeout;
+var cachedClearTimeout;
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout() {
+    throw new Error('clearTimeout has not been defined');
+}
+(function() {
+    try {
+        if (typeof setTimeout === 'function') cachedSetTimeout = setTimeout;
+        else cachedSetTimeout = defaultSetTimout;
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') cachedClearTimeout = clearTimeout;
+        else cachedClearTimeout = defaultClearTimeout;
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+})();
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) //normal enviroments in sane situations
+    return setTimeout(fun, 0);
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch (e) {
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch (e1) {
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) //normal enviroments in sane situations
+    return clearTimeout(marker);
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e) {
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e1) {
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) return;
+    draining = false;
+    if (currentQueue.length) queue = currentQueue.concat(queue);
+    else queueIndex = -1;
+    if (queue.length) drainQueue();
+}
+function drainQueue() {
+    if (draining) return;
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+    var len = queue.length;
+    while(len){
+        currentQueue = queue;
+        queue = [];
+        while((++queueIndex) < len)if (currentQueue) currentQueue[queueIndex].run();
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+process.nextTick = function(fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) for(var i = 1; i < arguments.length; i++)args[i - 1] = arguments[i];
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) runTimeout(drainQueue);
+};
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function() {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {
+};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {
+};
+function noop() {
+}
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+process.listeners = function(name) {
+    return [];
+};
+process.binding = function(name) {
+    throw new Error('process.binding is not supported');
+};
+process.cwd = function() {
+    return '/';
+};
+process.chdir = function(dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() {
+    return 0;
+};
+
+},{}],"7hFMd":[function(require,module,exports) {
+var prefix = require('prefix-style');
+var toCamelCase = require('to-camel-case');
+var cache = {
+    'float': 'cssFloat'
+};
+var addPxToStyle = require('add-px-to-style');
+function style(element, property, value) {
+    var camel = cache[property];
+    if (typeof camel === 'undefined') camel = detect(property);
+    // may be false if CSS prop is unsupported
+    if (camel) {
+        if (value === undefined) return element.style[camel];
+        element.style[camel] = addPxToStyle(camel, value);
+    }
+}
+function each(element, properties) {
+    for(var k in properties)if (properties.hasOwnProperty(k)) style(element, k, properties[k]);
+}
+function detect(cssProp) {
+    var camel = toCamelCase(cssProp);
+    var result = prefix(camel);
+    cache[camel] = cache[cssProp] = cache[result] = result;
+    return result;
+}
+function set() {
+    if (arguments.length === 2) {
+        if (typeof arguments[1] === 'string') arguments[0].style.cssText = arguments[1];
+        else each(arguments[0], arguments[1]);
+    } else style(arguments[0], arguments[1], arguments[2]);
+}
+module.exports = set;
+module.exports.set = set;
+module.exports.get = function(element, properties) {
+    if (Array.isArray(properties)) return properties.reduce(function(obj, prop) {
+        obj[prop] = style(element, prop || '');
+        return obj;
+    }, {
+    });
+    else return style(element, properties || '');
+};
+
+},{"prefix-style":"ar35Q","to-camel-case":"kbISQ","add-px-to-style":"1XJww"}],"ar35Q":[function(require,module,exports) {
+var div = null;
+var prefixes = [
+    'Webkit',
+    'Moz',
+    'O',
+    'ms'
+];
+module.exports = function prefixStyle(prop) {
+    // re-use a dummy div
+    if (!div) div = document.createElement('div');
+    var style = div.style;
+    // prop exists without prefix
+    if (prop in style) return prop;
+    // borderRadius -> BorderRadius
+    var titleCase = prop.charAt(0).toUpperCase() + prop.slice(1);
+    // find the vendor-prefixed prop
+    for(var i = prefixes.length; i >= 0; i--){
+        var name = prefixes[i] + titleCase;
+        // e.g. WebkitBorderRadius or webkitBorderRadius
+        if (name in style) return name;
+    }
+    return false;
+};
+
+},{}],"kbISQ":[function(require,module,exports) {
+var space = require('to-space-case');
+/**
+ * Export.
+ */ module.exports = toCamelCase;
+/**
+ * Convert a `string` to camel case.
+ *
+ * @param {String} string
+ * @return {String}
+ */ function toCamelCase(string) {
+    return space(string).replace(/\s(\w)/g, function(matches, letter) {
+        return letter.toUpperCase();
+    });
+}
+
+},{"to-space-case":"1oXAl"}],"1oXAl":[function(require,module,exports) {
+var clean = require('to-no-case');
+/**
+ * Export.
+ */ module.exports = toSpaceCase;
+/**
+ * Convert a `string` to space case.
+ *
+ * @param {String} string
+ * @return {String}
+ */ function toSpaceCase(string) {
+    return clean(string).replace(/[\W_]+(.|$)/g, function(matches, match) {
+        return match ? ' ' + match : '';
+    }).trim();
+}
+
+},{"to-no-case":"b8g0D"}],"b8g0D":[function(require,module,exports) {
+/**
+ * Export.
+ */ module.exports = toNoCase;
+/**
+ * Test whether a string is camel-case.
+ */ var hasSpace = /\s/;
+var hasSeparator = /(_|-|\.|:)/;
+var hasCamel = /([a-z][A-Z]|[A-Z][a-z])/;
+/**
+ * Remove any starting case from a `string`, like camel or snake, but keep
+ * spaces and punctuation that may be important otherwise.
+ *
+ * @param {String} string
+ * @return {String}
+ */ function toNoCase(string) {
+    if (hasSpace.test(string)) return string.toLowerCase();
+    if (hasSeparator.test(string)) return (unseparate(string) || string).toLowerCase();
+    if (hasCamel.test(string)) return uncamelize(string).toLowerCase();
+    return string.toLowerCase();
+}
+/**
+ * Separator splitter.
+ */ var separatorSplitter = /[\W_]+(.|$)/g;
+/**
+ * Un-separate a `string`.
+ *
+ * @param {String} string
+ * @return {String}
+ */ function unseparate(string) {
+    return string.replace(separatorSplitter, function(m, next) {
+        return next ? ' ' + next : '';
+    });
+}
+/**
+ * Camelcase splitter.
+ */ var camelSplitter = /(.)([A-Z]+)/g;
+/**
+ * Un-camelcase a `string`.
+ *
+ * @param {String} string
+ * @return {String}
+ */ function uncamelize(string) {
+    return string.replace(camelSplitter, function(m, previous, uppers) {
+        return previous + ' ' + uppers.toLowerCase().split('').join(' ');
+    });
+}
+
+},{}],"1XJww":[function(require,module,exports) {
+/* The following list is defined in React's core */ var IS_UNITLESS = {
+    animationIterationCount: true,
+    boxFlex: true,
+    boxFlexGroup: true,
+    boxOrdinalGroup: true,
+    columnCount: true,
+    flex: true,
+    flexGrow: true,
+    flexPositive: true,
+    flexShrink: true,
+    flexNegative: true,
+    flexOrder: true,
+    gridRow: true,
+    gridColumn: true,
+    fontWeight: true,
+    lineClamp: true,
+    lineHeight: true,
+    opacity: true,
+    order: true,
+    orphans: true,
+    tabSize: true,
+    widows: true,
+    zIndex: true,
+    zoom: true,
+    // SVG-related properties
+    fillOpacity: true,
+    stopOpacity: true,
+    strokeDashoffset: true,
+    strokeOpacity: true,
+    strokeWidth: true
+};
+module.exports = function(name, value) {
+    if (typeof value === 'number' && !IS_UNITLESS[name]) return value + 'px';
+    else return value;
+};
+
+},{}],"LejF0":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = isString;
+function isString(maybe) {
+    return typeof maybe === 'string';
+}
+
+},{}],"lc4h8":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = getScrollbarWidth;
+var _domCss = require('dom-css');
+var _domCss2 = _interopRequireDefault(_domCss);
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+var scrollbarWidth = false;
+function getScrollbarWidth() {
+    var cacheEnabled = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : true;
+    if (cacheEnabled && scrollbarWidth !== false) return scrollbarWidth;
+    /* istanbul ignore else */ if (typeof document !== 'undefined') {
+        var div = document.createElement('div');
+        _domCss2["default"](div, {
+            width: 100,
+            height: 100,
+            position: 'absolute',
+            top: -9999,
+            overflow: 'scroll',
+            MsOverflowStyle: 'scrollbar'
+        });
+        document.body.appendChild(div);
+        scrollbarWidth = div.offsetWidth - div.clientWidth;
+        document.body.removeChild(div);
+    } else scrollbarWidth = 0;
+    return scrollbarWidth || 0;
+}
+
+},{"dom-css":"7hFMd"}],"9R1WU":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = returnFalse;
+function returnFalse() {
+    return false;
+}
+
+},{}],"29Pyr":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = getInnerWidth;
+function getInnerWidth(el) {
+    var clientWidth = el.clientWidth;
+    var _getComputedStyle = getComputedStyle(el), paddingLeft = _getComputedStyle.paddingLeft, paddingRight = _getComputedStyle.paddingRight;
+    return clientWidth - parseFloat(paddingLeft) - parseFloat(paddingRight);
+}
+
+},{}],"2BAaC":[function(require,module,exports) {
+"use strict";
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports["default"] = getInnerHeight;
+function getInnerHeight(el) {
+    var clientHeight = el.clientHeight;
+    var _getComputedStyle = getComputedStyle(el), paddingTop = _getComputedStyle.paddingTop, paddingBottom = _getComputedStyle.paddingBottom;
+    return clientHeight - parseFloat(paddingTop) - parseFloat(paddingBottom);
+}
+
+},{}],"i2gC6":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var containerStyleDefault = exports.containerStyleDefault = {
+    position: 'relative',
+    overflow: 'hidden',
+    width: '100%',
+    height: '100%'
+};
+// Overrides containerStyleDefault properties
+var containerStyleAutoHeight = exports.containerStyleAutoHeight = {
+    height: 'auto'
+};
+var viewStyleDefault = exports.viewStyleDefault = {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    overflow: 'scroll',
+    WebkitOverflowScrolling: 'touch'
+};
+// Overrides viewStyleDefault properties
+var viewStyleAutoHeight = exports.viewStyleAutoHeight = {
+    position: 'relative',
+    top: undefined,
+    left: undefined,
+    right: undefined,
+    bottom: undefined
+};
+var viewStyleUniversalInitial = exports.viewStyleUniversalInitial = {
+    overflow: 'hidden',
+    marginRight: 0,
+    marginBottom: 0
+};
+var trackHorizontalStyleDefault = exports.trackHorizontalStyleDefault = {
+    position: 'absolute',
+    height: 6
+};
+var trackVerticalStyleDefault = exports.trackVerticalStyleDefault = {
+    position: 'absolute',
+    width: 6
+};
+var thumbHorizontalStyleDefault = exports.thumbHorizontalStyleDefault = {
+    position: 'relative',
+    display: 'block',
+    height: '100%'
+};
+var thumbVerticalStyleDefault = exports.thumbVerticalStyleDefault = {
+    position: 'relative',
+    display: 'block',
+    width: '100%'
+};
+var disableSelectStyle = exports.disableSelectStyle = {
+    userSelect: 'none'
+};
+var disableSelectStyleReset = exports.disableSelectStyleReset = {
+    userSelect: ''
+};
+
+},{}],"f2AO4":[function(require,module,exports) {
+'use strict';
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+var _extends = Object.assign || function(target) {
+    for(var i = 1; i < arguments.length; i++){
+        var source = arguments[i];
+        for(var key in source)if (Object.prototype.hasOwnProperty.call(source, key)) target[key] = source[key];
+    }
+    return target;
+};
+exports.renderViewDefault = renderViewDefault;
+exports.renderTrackHorizontalDefault = renderTrackHorizontalDefault;
+exports.renderTrackVerticalDefault = renderTrackVerticalDefault;
+exports.renderThumbHorizontalDefault = renderThumbHorizontalDefault;
+exports.renderThumbVerticalDefault = renderThumbVerticalDefault;
+var _react = require('react');
+var _react2 = _interopRequireDefault(_react);
+function _interopRequireDefault(obj) {
+    return obj && obj.__esModule ? obj : {
+        "default": obj
+    };
+}
+function _objectWithoutProperties(obj, keys) {
+    var target = {
+    };
+    for(var i in obj){
+        if (keys.indexOf(i) >= 0) continue;
+        if (!Object.prototype.hasOwnProperty.call(obj, i)) continue;
+        target[i] = obj[i];
+    }
+    return target;
+}
+/* eslint-disable react/prop-types */ function renderViewDefault(props) {
+    return _react2["default"].createElement('div', props);
+}
+function renderTrackHorizontalDefault(_ref) {
+    var style = _ref.style, props = _objectWithoutProperties(_ref, [
+        'style'
+    ]);
+    var finalStyle = _extends({
+    }, style, {
+        right: 2,
+        bottom: 2,
+        left: 2,
+        borderRadius: 3
+    });
+    return _react2["default"].createElement('div', _extends({
+        style: finalStyle
+    }, props));
+}
+function renderTrackVerticalDefault(_ref2) {
+    var style = _ref2.style, props = _objectWithoutProperties(_ref2, [
+        'style'
+    ]);
+    var finalStyle = _extends({
+    }, style, {
+        right: 2,
+        bottom: 2,
+        top: 2,
+        borderRadius: 3
+    });
+    return _react2["default"].createElement('div', _extends({
+        style: finalStyle
+    }, props));
+}
+function renderThumbHorizontalDefault(_ref3) {
+    var style = _ref3.style, props = _objectWithoutProperties(_ref3, [
+        'style'
+    ]);
+    var finalStyle = _extends({
+    }, style, {
+        cursor: 'pointer',
+        borderRadius: 'inherit',
+        backgroundColor: 'rgba(0,0,0,.2)'
+    });
+    return _react2["default"].createElement('div', _extends({
+        style: finalStyle
+    }, props));
+}
+function renderThumbVerticalDefault(_ref4) {
+    var style = _ref4.style, props = _objectWithoutProperties(_ref4, [
+        'style'
+    ]);
+    var finalStyle = _extends({
+    }, style, {
+        cursor: 'pointer',
+        borderRadius: 'inherit',
+        backgroundColor: 'rgba(0,0,0,.2)'
+    });
+    return _react2["default"].createElement('div', _extends({
+        style: finalStyle
+    }, props));
+}
+
+},{"react":"6TuXu"}],"8tVTf":[function() {},{}],"1dfYM":[function() {},{}]},["2rAXy","czkC5","iqQLF"], "iqQLF", "parcelRequire3406")
 
 //# sourceMappingURL=index.b4af9c3f.js.map
