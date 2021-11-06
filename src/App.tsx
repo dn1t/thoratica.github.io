@@ -61,6 +61,9 @@ const App = () => {
               <span className='border-transparent inline-block' style={{ borderWidth: 5, borderLeftColor: 'rgb(156, 163, 175)' }} />A redevelopment expert who turns over the project every time, knowing that it won't make a big difference.
             </li>
           </ul>
+            <a href='https://blog.tica.fun' target='_blank' className='text-gray-200 font-light mt-4 flex border border-gray-700 px-5 py-2.5 rounded-lg transition-colors hover:bg-gray-700'>
+              Blog
+            </a>
           <div className='text-gray-500 transition-colors hover:text-gray-400 font-medium absolute bottom-16 flex cursor-pointer' onClick={() => snap.current?.scroll({ top: snap.current.clientHeight, behavior: 'smooth' })}>
             <ReactSVG src='./arrow-down.svg' className='h-6 text-gray-500 mr-1' />
             Scroll down
